@@ -42,7 +42,7 @@ jobs:
       - name: 🏠 Run RentHunter
         id: renthunter
         run: |
-          python renthunter_improved.py
+          python renthunter.py
           # Capturar status para usar em passos posteriores
           echo "EXIT_CODE=$?" >> $GITHUB_OUTPUT
       

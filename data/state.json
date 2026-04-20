@@ -1,0 +1,12 @@
+{
+  "ignored": [
+    "url_apt_1",
+    "url_apt_2"
+  ],
+  "seen": {
+    "url_apt_3": {
+      "first_seen": "2026-04-20",
+      "last_score": 92
+    }
+  }
+}

@@ -481,6 +481,16 @@ class OLXScraperPlaywright:
             context = await browser.new_context(
                 user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
             )
+            context = await browser.new_context(
+                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                viewport={'width': 1280, 'height': 800},
+                locale='pt-BR'
+            )
+            await context.add_init_script("""
+                Object.defineProperty(navigator, 'webdriver', {
+                    get: () => undefined
+                })
+                """)
             page = await context.new_page()
             
             try:
@@ -489,13 +499,13 @@ class OLXScraperPlaywright:
                     params = f"?ps={preco_min}&pe={preco_max}&ss={area_min}&sf=1&o={page_num}"
                     full_url = url + params
                     
-                    logger.info(f"Scraping página {page_num}: {url}")
+                    logger.info(f"Scraping página {page_num}: {full_url}")
                     
                     try:
-                        await page.goto(full_url, wait_until='networkidle', timeout=60000)
+                        await page.goto(full_url, wait_until='domcontentloaded', timeout=60000)
                         
                         # Esperar pelo script JSON
-                        await page.wait_for_selector('script#__NEXT_DATA__', timeout=15000)
+                        await page.wait_for_selector('script#__NEXT_DATA__', timeout=30000)
                         
                         # Extrair conteúdo do script
                         script_content = await page.evaluate('''

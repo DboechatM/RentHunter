@@ -36,7 +36,7 @@ jobs:
       - name: 📦 Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas requests beautifulsoup4
+          pip install pandas requests beautifulsoup4 pytest
       
       # 4. Executar RentHunter
       - name: 🏠 Run RentHunter
@@ -67,7 +67,7 @@ jobs:
       # 6. Upload de artifacts (opcional, para debug)
       - name: 📊 Upload logs as artifact
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: renthunter-logs-${{ github.run_id }}
           path: data/logs/

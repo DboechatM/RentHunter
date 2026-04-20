@@ -1,39 +1,116 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: Python application
+name: RentHunter - Monitoramento de Imóveis
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-permissions:
-  contents: read
+  # Executa diariamente às 9h (horário UTC)
+  # Para São Paulo, ajustar: 9h UTC = 6h horário de São Paulo
+  schedule:
+    - cron: '0 12 * * *'
+    - cron: '0 21 * * *'
+  
+  # Permite execução manual via GitHub UI
+  workflow_dispatch:
 
 jobs:
-  build:
-
+  renthunter:
+    name: Scan e Atualizar Rankings
     runs-on: ubuntu-latest
-
+    
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v3
-      with:
-        python-version: "3.10"
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install flake8 pytest
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Lint with flake8
-      run: |
-        # stop the build if there are Python syntax errors or undefined names
-        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Test with pytest
-      run: |
-        pytest
+      # 1. Clonar repositório
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      # 2. Configurar Python
+      - name: 🐍 Setup Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      
+      # 3. Instalar dependências
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests beautifulsoup4
+      
+      # 4. Executar RentHunter
+      - name: 🏠 Run RentHunter
+        id: renthunter
+        run: |
+          python renthunter_improved.py
+          # Capturar status para usar em passos posteriores
+          echo "EXIT_CODE=$?" >> $GITHUB_OUTPUT
+      
+      # 5. Commit e push dos resultados (apenas se houver mudanças)
+      - name: 📤 Commit results
+        if: always()  # Executar sempre, mesmo se houver erro
+        run: |
+          git config user.name "RentHunter Bot"
+          git config user.email "renthunter@bot.local"
+          git config --global user.email "renthunter@bot.local"
+          git config --global user.name "RentHunter Bot"
+          
+          # Adicionar arquivos modificados
+          git add -A data/
+          
+          # Fazer commit (|| true ignora erro se não houver mudanças)
+          git commit -m "🏠 Update: Daily RentHunter scan $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || true
+          
+          # Push para branch main
+          git push origin HEAD:main
+      
+      # 6. Upload de artifacts (opcional, para debug)
+      - name: 📊 Upload logs as artifact
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: renthunter-logs-${{ github.run_id }}
+          path: data/logs/
+          retention-days: 30
+      
+      # 7. Notificação (opcional - requer secrets configurados)
+      - name: 🔔 Send Telegram notification (on success)
+        if: success()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ ! -z "$TELEGRAM_BOT_TOKEN" ] && [ ! -z "$TELEGRAM_CHAT_ID" ]; then
+            MESSAGE="✅ RentHunter Scan Concluído
+            
+          Hora: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+          Resultado: SUCESSO"
+            
+            curl -X POST \
+              -H "Content-Type: application/json" \
+              -d "{\"chat_id\":\"$TELEGRAM_CHAT_ID\",\"text\":\"$MESSAGE\"}" \
+              https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage || true
+          fi
+      
+      - name: 🔔 Send Telegram notification (on failure)
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ ! -z "$TELEGRAM_BOT_TOKEN" ] && [ ! -z "$TELEGRAM_CHAT_ID" ]; then
+            MESSAGE="❌ RentHunter Scan FALHOU
+            
+          Hora: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+          Verifique os logs em: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            
+            curl -X POST \
+              -H "Content-Type: application/json" \
+              -d "{\"chat_id\":\"$TELEGRAM_CHAT_ID\",\"text\":\"$MESSAGE\"}" \
+              https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage || true
+          fi
+
+# Variáveis de ambiente (opcional)
+env:
+  PYTHONUNBUFFERED: 1
+  TZ: America/Sao_Paulo

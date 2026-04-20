@@ -13,6 +13,9 @@ on:
   # Permite execução manual via GitHub UI
   workflow_dispatch:
 
+permissions:
+  contents: write 
+
 jobs:
   renthunter:
     name: Scan e Atualizar Rankings
@@ -36,13 +39,13 @@ jobs:
       - name: 📦 Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas requests beautifulsoup4 pytest
+          pip install pandas requests beautifulsoup4 playwright
       
       # 4. Executar RentHunter
       - name: 🏠 Run RentHunter
         id: renthunter
         run: |
-          python renthunter.py
+          python renthunter_playwright.py
           # Capturar status para usar em passos posteriores
           echo "EXIT_CODE=$?" >> $GITHUB_OUTPUT
       

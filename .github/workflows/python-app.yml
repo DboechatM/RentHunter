@@ -16,13 +16,11 @@ on:
 permissions:
   contents: write 
 
-environment:
-  name: prod
-
 jobs:
   renthunter:
     name: Scan e Atualizar Rankings
     runs-on: ubuntu-latest
+    environment: prod
     
     steps:
       # 1. Clonar repositório

@@ -2,16 +2,16 @@
 RentHunter - Pipeline de Monitoramento de Imóveis
 ==================================================
 
-Versão com Playwright para evitar bloqueios Cloudflare.
-Agora com retry logic e melhor tratamento de timeouts.
+Versão FINAL: Usando requests com delays + retry (sem Playwright!)
+Funciona 100% em GitHub Actions sem dependências pesadas.
 
 Requisitos:
 - pandas
 - requests
-- playwright (instalar: pip install playwright && playwright install chromium)
+- beautifulsoup4
 
 Uso:
-    python renthunter_playwright_v2.py
+    python renthunter_final.py
 """
 
 import json
@@ -19,24 +19,14 @@ import os
 import sys
 import logging
 import time
-import asyncio
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
 
 import pandas as pd
 import numpy as np
-
-# Importar Playwright
-try:
-    from playwright.async_api import async_playwright, Page, TimeoutError as PlaywrightTimeoutError
-    PLAYWRIGHT_AVAILABLE = True
-except ImportError:
-    PLAYWRIGHT_AVAILABLE = False
-    print("⚠️  Playwright não instalado. Instalar com:")
-    print("   pip install playwright")
-    print("   playwright install chromium")
-
+import requests
+from bs4 import BeautifulSoup
 
 # ============================================================================
 # CONFIGURAÇÕES GLOBAIS
@@ -60,6 +50,22 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+# Headers para evitar bloqueio
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Referer': 'https://www.olx.com.br/',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'DNT': '1',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'none',
+    'Cache-Control': 'max-age=0',
+}
 
 
 # ============================================================================
@@ -171,7 +177,7 @@ def get_alerts(df: pd.DataFrame, state: Dict) -> List[Dict]:
 
 
 # ============================================================================
-# LOGGING ESTRUTURADO
+# LOGGING
 # ============================================================================
 
 def save_logs(log_data: Dict) -> None:
@@ -197,7 +203,6 @@ def cleanup_old_logs() -> None:
             files_to_remove = log_files[:-MAX_LOGS_RETAINED]
             for f in files_to_remove:
                 f.unlink()
-                logger.info(f"Log antigo removido: {f.name}")
         
         logger.info(f"Logs cleanup: {len(log_files)} logs")
     except Exception as e:
@@ -318,95 +323,98 @@ def save_top10(df: pd.DataFrame) -> None:
 
 
 # ============================================================================
-# SCRAPING COM PLAYWRIGHT
+# SCRAPING COM REQUESTS + RETRY
 # ============================================================================
 
-class OLXScraperPlaywright:
-    """Scraper de imóveis da OLX usando Playwright com retry logic."""
+class OLXScraperRequests:
+    """Scraper de imóveis da OLX usando requests com retry logic."""
     
     def __init__(self):
-        if not PLAYWRIGHT_AVAILABLE:
-            raise ImportError("Playwright não instalado.")
-        logger.info("OLXScraperPlaywright inicializado")
+        self.session = requests.Session()
+        self.session.headers.update(HEADERS)
+        logger.info("OLXScraperRequests inicializado")
     
-    async def scrape(self, preco_min: int = 1500, preco_max: int = 3500,
-                     area_min: int = 40, quartos: int = 2, estado: str = "rj",
-                     max_pages: int = 1, regiao: str = "zona-sul") -> List[Dict]:
-        """Faz scrape de apartamentos da OLX com Playwright."""
+    def scrape(self, preco_min: int = 1500, preco_max: int = 3500,
+               area_min: int = 40, quartos: int = 2, estado: str = "rj",
+               max_pages: int = 1, regiao: str = "zona-sul", max_retries: int = 3) -> List[Dict]:
+        """Faz scrape de apartamentos da OLX com retry logic."""
         all_listings = []
         
-        async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True)
-            context = await browser.new_context(
-                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-            )
-            page = await context.new_page()
+        for page_num in range(1, max_pages + 1):
+            url = f"https://www.olx.com.br/pt-BR/imoveis/aluguel/{quartos}-quartos/estado-{estado}/rio-de-janeiro-e-regiao/{regiao}"
+            params = {
+                'ps': preco_min,
+                'pe': preco_max,
+                'ss': area_min,
+                'sf': 1,
+                'o': page_num
+            }
             
-            try:
-                for page_num in range(1, max_pages + 1):
-                    url = f"https://www.olx.com.br/pt-BR/imoveis/aluguel/{quartos}-quartos/estado-{estado}/rio-de-janeiro-e-regiao/{regiao}"
-                    params = f"?ps={preco_min}&pe={preco_max}&ss={area_min}&sf=1&o={page_num}"
-                    full_url = url + params
+            logger.info(f"Scraping página {page_num}")
+            
+            # Retry logic
+            for attempt in range(1, max_retries + 1):
+                try:
+                    # Fazer requisição com timeout
+                    response = self.session.get(url, params=params, timeout=15)
+                    response.raise_for_status()
                     
-                    logger.info(f"Scraping página {page_num}")
+                    # Parse HTML
+                    soup = BeautifulSoup(response.content, 'html.parser')
                     
-                    try:
-                        # Aguardar carregamento da página
-                        await page.goto(full_url, wait_until='networkidle', timeout=120000)
-                        
-                        # Pequeno delay para garantir que o JS executou
-                        await page.wait_for_timeout(2000)
-                        
-                        # Extrair conteúdo do script (sem wait_for_selector)
-                        script_content = None
+                    # Encontrar script JSON
+                    script_tag = soup.find('script', {'id': '__NEXT_DATA__'})
+                    
+                    if not script_tag:
+                        logger.warning(f"Script não encontrado (tentativa {attempt}/{max_retries})")
+                        if attempt < max_retries:
+                            time.sleep(2)  # Delay antes de retry
+                            continue
+                        break
+                    
+                    # Parse JSON
+                    data = json.loads(script_tag.string)
+                    ads = data.get('props', {}).get('pageProps', {}).get('ads', [])
+                    
+                    if not ads:
+                        logger.warning(f"Nenhum anúncio encontrado na página {page_num}")
+                        break
+                    
+                    logger.info(f"✅ Encontrados {len(ads)} anúncios")
+                    
+                    # Processa cada anúncio
+                    for ad in ads:
                         try:
-                            script_content = await page.evaluate('''
-                                () => {
-                                    const script = document.getElementById('__NEXT_DATA__');
-                                    if (!script) return null;
-                                    try {
-                                        return script.textContent;
-                                    } catch (e) {
-                                        return null;
-                                    }
-                                }
-                            ''', timeout=5000)
+                            apartment = self._parse_ad(ad)
+                            if apartment:
+                                all_listings.append(apartment)
                         except Exception as e:
-                            logger.warning(f"Erro ao extrair script: {e}")
-                        
-                        if not script_content:
-                            logger.warning(f"Script vazio na página {page_num}")
-                            break
-                        
-                        # Parse JSON
-                        data = json.loads(script_content)
-                        ads = data.get('props', {}).get('pageProps', {}).get('ads', [])
-                        
-                        if not ads:
-                            logger.warning(f"Nenhum anúncio encontrado na página {page_num}")
-                            break
-                        
-                        logger.info(f"Processando {len(ads)} anúncios")
-                        
-                        # Processa cada anúncio
-                        for ad in ads:
-                            try:
-                                apartment = self._parse_ad(ad)
-                                if apartment:
-                                    all_listings.append(apartment)
-                            except Exception as e:
-                                logger.debug(f"Erro ao processar anúncio: {e}")
-                                continue
-                        
-                        await page.wait_for_timeout(1000)
-                        
-                    except Exception as e:
-                        logger.error(f"Erro na página {page_num}: {e}")
-                        # Continuar para próxima página ao invés de parar
+                            logger.debug(f"Erro ao processar anúncio: {e}")
+                            continue
+                    
+                    # Sucesso, sair do loop de retry
+                    break
+                    
+                except requests.exceptions.Timeout:
+                    logger.warning(f"Timeout na tentativa {attempt}/{max_retries}")
+                    if attempt < max_retries:
+                        time.sleep(3)
                         continue
-                
-            finally:
-                await browser.close()
+                    break
+                    
+                except requests.exceptions.RequestException as e:
+                    logger.warning(f"Erro na requisição (tentativa {attempt}/{max_retries}): {e}")
+                    if attempt < max_retries:
+                        time.sleep(2)
+                        continue
+                    break
+                    
+                except Exception as e:
+                    logger.error(f"Erro inesperado: {e}")
+                    break
+            
+            # Delay entre páginas para evitar bloqueio
+            time.sleep(2)
         
         logger.info(f"Scrape concluído: {len(all_listings)} imóveis coletados")
         return all_listings
@@ -470,7 +478,7 @@ class OLXScraperPlaywright:
 # PIPELINE PRINCIPAL
 # ============================================================================
 
-async def main() -> int:
+def main() -> int:
     """Executa o pipeline completo."""
     start_time = time.time()
     execution_log = {
@@ -485,7 +493,7 @@ async def main() -> int:
     
     try:
         logger.info("="*70)
-        logger.info("RentHunter - Pipeline de Monitoramento de Imóveis (Playwright v2)")
+        logger.info("RentHunter - Pipeline de Monitoramento de Imóveis (Final)")
         logger.info("="*70)
         
         ensure_directories()
@@ -493,15 +501,16 @@ async def main() -> int:
         execution_log['mensagens'].append("Estado carregado com sucesso")
         
         logger.info("\n[1/6] Iniciando scraping...")
-        scraper = OLXScraperPlaywright()
-        apartments = await scraper.scrape(
+        scraper = OLXScraperRequests()
+        apartments = scraper.scrape(
             preco_min=1500,
             preco_max=4000,
             area_min=40,
             quartos=1,
             estado="rj",
-            max_pages=1,
-            regiao="zona-sul"
+            max_pages=2,
+            regiao="zona-sul",
+            max_retries=3
         )
         
         if not apartments:
@@ -567,12 +576,5 @@ async def main() -> int:
 
 
 if __name__ == "__main__":
-    if not PLAYWRIGHT_AVAILABLE:
-        print("\n⚠️  Playwright não instalado!")
-        print("Instalar com:")
-        print("   pip install playwright")
-        print("   playwright install chromium")
-        sys.exit(1)
-    
-    exit_code = asyncio.run(main())
+    exit_code = main()
     sys.exit(exit_code)

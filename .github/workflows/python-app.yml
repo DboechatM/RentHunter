@@ -16,6 +16,9 @@ on:
 permissions:
   contents: write 
 
+environment:
+  name: prod
+
 jobs:
   renthunter:
     name: Scan e Atualizar Rankings
@@ -46,7 +49,7 @@ jobs:
       - name: 🏠 Run RentHunter
         id: renthunter
         run: |
-          python renthunter_playwright.py
+          python renthunter_v3.py
           # Capturar status para usar em passos posteriores
           echo "EXIT_CODE=$?" >> $GITHUB_OUTPUT
       

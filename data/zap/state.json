@@ -1,0 +1,37 @@
+{
+  "ignored": [],
+  "seen": {
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-flamengo-zona-sul-rio-de-janeiro-rj-43m2-id-2879466063/": {
+      "first_seen": "2026-04-29T17:10:18.281762",
+      "last_score": 95.0
+    },
+    "https://www.zapimoveis.com.br/imovel/venda-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-40m2-id-2866483936/": {
+      "first_seen": "2026-04-29T17:10:18.281762",
+      "last_score": 85.0
+    },
+    "https://www.zapimoveis.com.br/imovel/venda-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-40m2-id-2882655795/": {
+      "first_seen": "2026-04-29T17:10:18.281762",
+      "last_score": 85.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-botafogo-zona-sul-rio-de-janeiro-rj-53m2-id-2869172181/": {
+      "first_seen": "2026-04-29T17:10:18.281762",
+      "last_score": 85.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-43m2-id-2873641747/": {
+      "first_seen": "2026-04-29T17:10:18.281762",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2869685469/": {
+      "first_seen": "2026-04-29T17:10:18.281762",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-58m2-id-2883384684/": {
+      "first_seen": "2026-04-29T17:10:18.281762",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-quitinete-1-quarto-com-elevador-flamengo-zona-sul-rio-de-janeiro-rj-40m2-id-2882248396/": {
+      "first_seen": "2026-04-29T17:10:18.281762",
+      "last_score": 60.0
+    }
+  }
+}

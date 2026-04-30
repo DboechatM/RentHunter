@@ -40,6 +40,14 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-elevador-flamengo-zona-sul-rio-de-janeiro-rj-43m2-id-2879466063/": {
       "first_seen": "2026-04-30T10:56:21.152996",
       "last_score": 95.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-42m2-id-2883791785/": {
+      "first_seen": "2026-04-30T19:01:48.533781",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-humaita-zona-sul-rio-de-janeiro-rj-40m2-id-2883760427/": {
+      "first_seen": "2026-04-30T19:01:48.533781",
+      "last_score": 65.0
     }
   }
 }

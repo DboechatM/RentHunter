@@ -1,0 +1,405 @@
+{
+  "ignored": [],
+  "seen": {
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/casa-90m-com-2-quartos-para-locacao-no-catete-rj-1496948869": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 100.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-43-metros-quadrados-com-2-quartos-em-flamengo-rio-de-janeiro-r-1492068025": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 95.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/oportunidade-de-quarto-e-sala-no-flamengo-1496020492": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 90.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-proximo-a-lapa-1498209647": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 85.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/otimo-quarto-atlantica-copacabana-posto-5-1496195887": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 85.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-1-quarto-mobiliado-catete-1491164648": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 85.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-a-venda-flamengo-rio-de-janeiro-rj-1497477882": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 85.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/alugo-2-quartos-no-flamengo-1494395634": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 80.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/aluguel-de-apartamento-de-2-quartos-em-botafogo-ha-5-minutos-a-pe-do-metro-de-botafogo-1496957124": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 80.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-possui-68-metros-quadrados-com-2-quartos-em-flamengo-rio-de-janeiro-1497318096": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 80.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-no-flamengo-1498160974": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 80.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-no-flamengo-rio-de-janeiro-rj-1497656495": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 80.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-locacao-laranjeiras-rio-de-janeiro-rj-1494214568": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 80.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/na-charmosa-rua-martins-ribeiro-no-coracao-do-flamengo-encontra-se-um-apartamento-que-e-1492112540": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-apartamento-de-2-quartos-no-coracao-do-flamengo-predio-com-academia-piscina-e-1496652624": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/flamengo-excelente-custo-beneficio-em-localizacao-nobre-1494433205": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-locacao-2-quartos-67m-flamengo-rio-de-janeiro-rj-1498114080": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-locacao-botafogo-rio-de-janeiro-rj-1497840523": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-tem-49-metros-quadrados-com-1-quarto-em-flamengo-rio-de-janeiro-rj-1497609832": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-locacao-botafogo-rio-de-janeiro-rj-1498138648": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/na-charmosa-rua-martins-ribeiro-no-coracao-do-flamengo-encontra-se-um-apartamento-que-e-1492155808": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-2-dormitorios-para-alugar-60-m-por-r-4-930-20-mes-flamengo-rio-de-j-1492588915": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/sala-comercial-com-duas-salas-e-ar-condicionado-1492736026": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/jbv-aluga-excelente-apto-no-coracao-de-botafogo-1492179359": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apto-na-lapa-escadaria-do-selaron-1493410852": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 70.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/quarto-e-sala-fundos-av-augusto-severo-1492671232": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 70.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-rio-de-janeiro-botafogo-1491715217": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 70.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/shakira-aluguel-casa-pertinho-1496442639": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 65.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/conjugado-para-locacao-na-praia-do-flamengo-1496675549": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 65.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/botafogo-1-quarto-apartamento-para-aluguel-6686-1497515495": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 65.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-possui-72-metros-quadrados-com-2-quartos-em-laranjeiras-rio-de-janei-1497762514": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 65.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/alugo-apartamento-de-2-quartos-original3-de-80-m2-no-catete-1489867389": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 65.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apt-top-no-recreio-1491032233": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 65.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-na-niemeyer-gerando-renda-oportunidade-1492596093": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 65.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-tem-100-metros-quadrados-com-3-quartos-em-santa-teresa-rio-de-janeir-1496817156": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 65.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-conjugado-para-alugar-em-copacabana-1494358820": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 65.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-locacao-laranjeiras-rio-de-janeiro-rj-1492589359": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 60.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-aconchegante-em-santa-teresa-1493836653": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 60.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-locacao-45m-rua-silveira-martins-flamengo-rj-1496105368": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 60.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/flamengo-conjugado-1-quarto-1496195283": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 60.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/suite-com-varanda-e-vista-numa-pousada-area-nobre-de-santa-teresa-1429800116": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 58.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/casa-para-aluguel-copacabana-com-75-m-2-quartos-1-vaga-1493054897": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 55.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-de-frente-mobiliado-no-real-residence-hotel-com-varanda-sala-e-quarto-separad-1497824357": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 53.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-90-metros-quadrados-com-3-quartos-em-copacabana-rio-de-janeiro-1493963997": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-tem-57-metros-quadrados-com-2-quartos-1488726237": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/otimo-apartamento-75-m-sendo-sala-ampla-02-dois-quartos-sendo-um-suite-dois-2-ban-1496258749": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/na-zona-sul-um-apartamento-encantador-aguarda-na-tranquila-rua-barao-de-itambi-totalment-1496746713": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/otimo-apartamento-75-m-sendo-sala-ampla-02-dois-quartos-sendo-um-suite-dois-2-ban-1496185278": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-possui-70-metros-quadrados-com-2-quartos-1493781903": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/viva-o-privilegio-de-morar-em-um-dos-enderecos-mais-desejados-do-rio-este-amplo-apartamen-1495259417": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/2-quartos-com-dependencias-copacabana-1495647788": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/ape-mobiliado-em-santa-teresa-somente-contratos-de-60-a-90-dias-1496722057": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/ipiranga-132-cobertura-01-1491740148": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-possui-68-metros-quadrados-com-2-quartos-1495672995": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/acir-administracao-apresenta-excelente-apartamento-reformado-para-locacao-1495246180": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 48.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/quarto-e-sala-mobiliado-em-excelente-estado-proximo-ao-metro-da-siqueira-campos-1496916721": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 45.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-em-copacabana-1496112089": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 45.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-humaita-1489091921": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 45.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-tem-65-metros-quadrados-com-2-quartos-1488879076": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 45.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/leme-apto-com-2-quartos-em-a-uma-quadra-da-praia-rio-de-janeiro-rj-1497827408": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 45.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apt-quarto-e-sala-1498144146": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 45.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-50-metros-quadrados-com-1-quarto-em-copacabana-rio-de-janeiro-1497599025": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 40.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/jbv-aluga-excelente-apto-no-coracao-de-copacabana-1493669435": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 40.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/otimo-apartamento-mobiliado-no-coracao-de-copacabana-longo-prazo-1495716368": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 40.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/alugo-quarto-e-sala-em-copacabana-posto-5-1493866220": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 40.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/acir-administradora-aluga-apartamento-totalmente-reformado-1496957566": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 38.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-quarto-e-sala-para-alugar-na-rua-repulica-do-peru-em-copacabana-amplo-e-refor-1498159847": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/rua-silva-castro-10-1006rua-silva-castro-10-1006-1498155181": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-apartamento-quarto-e-sala-em-copacabana-1492654224": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-54-metros-quadrados-com-1-quarto-em-gavea-rio-de-janeiro-rj-1490715169": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/55m-novinho-zero-km-vaga-escritura-divididos-sala-quarto-area-servico-vista-verde-1493355889": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-de-60m-em-copacabana-excelente-localizacao-1497419465": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-em-copacabana-1-quarto-com-dependencia-completa-e-vaga-de-garagem-1498144805": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/copacabana-1-quarto-apartamento-para-aluguel-5375-1497876555": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/charmoso-apartamento-com-vaga-de-garagem-1497856527": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/lindo-apartamento-copacabana-1497157247": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-com-55-metros-quadrados-com-1-quarto-1496066700": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-com-40-metros-quadrados-com-1-quarto-1487571284": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/vista-livre-em-andar-alto-praticidade-em-copacabana-1495604275": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-com-50-metros-quadrados-com-1-quarto-1484357012": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-sala-e-quarto-separados-com-dep-completa-posto-5-nobre-de-copacabana-segunda-1496755980": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-possui-40-metros-quadrados-com-1-quarto-em-copacabana-rio-de-janeiro-1494576709": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/quarto-e-sala-mobiliado-no-humaita-rio-de-janeiro-rj-1495028533": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apto-1-quarto-e-sala-separados-mobiliado-copacabana-rio-de-janeiro-1495046786": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-em-copacabana-rio-de-janeiro-1494356229": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-alugar-1-quarto-em-copacabana-rio-de-janeiro-rj-1493020570": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/todo-reformado-46-metros-1-quarto-em-copacabana-rio-de-janeiro-rj-1497466082": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 33.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-1-dormitorio-para-alugar-copacabana-rio-de-janeiro-rj-1498183704": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 30.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-alugar-em-copacabana-1-quartos-6687-1497876462": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 30.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-ap-em-copa-1496802194": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 30.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-possui-46-metros-quadrados-com-1-quarto-1487616423": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 30.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/copacabana-rua-bolivar-1495457817": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 30.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-copacabana-01-quarto-1494443759": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 30.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/ponto-privilegiado-1494703914": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 30.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/aluga-se-sala-comercial-de-40m2-em-ipanema-na-rua-visconde-de-piraja-1495349538": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 30.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-40-metros-quadrados-com-1-quarto-em-copacabana-rio-de-janeiro-1493993663": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 30.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-tem-43-metros-quadrados-com-1-quarto-em-copacabana-rio-de-janeiro-1493045863": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 30.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/locacao-1-quarto-totalmente-mobiliado-no-vidigal-1493397983": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 30.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-possui-40-metros-quadrados-em-copacabana-rio-de-janeiro-rj-1490656661": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 30.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-1-dormitorio-para-alugar-43-m-por-r-5-130-mes-leme-rio-de-janeiro-r-1490473603": {
+      "first_seen": "2026-04-30T14:18:23.694073",
+      "last_score": 30.0
+    }
+  }
+}

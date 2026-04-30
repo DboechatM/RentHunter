@@ -406,6 +406,77 @@ def save_top10(df: pd.DataFrame) -> None:
 
 
 # ============================================================================
+# TELEGRAM
+# ============================================================================
+
+def send_telegram(message: str) -> None:
+    """Envia mensagem via Telegram Bot API."""
+    token   = os.getenv("TELEGRAM_BOT_TOKEN")
+    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+
+    if not token or not chat_id:
+        logger.info("Telegram não configurado, pulando notificação")
+        return
+
+    try:
+        response = requests.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            json={"chat_id": chat_id, "text": message, "parse_mode": "HTML"},
+            timeout=10
+        )
+        if response.status_code == 200:
+            logger.info("Notificação Telegram enviada")
+        else:
+            logger.warning(f"Telegram retornou status {response.status_code}: {response.text[:200]}")
+    except Exception as e:
+        logger.warning(f"Falha ao enviar Telegram: {e}")
+
+
+def build_telegram_message(top10: pd.DataFrame, alerts: List[Dict], log: Dict) -> str:
+    """Monta mensagem de resumo do scan para o Telegram."""
+    hora  = datetime.now().strftime('%d/%m %H:%M')
+    total = log.get('total_encontrados', 0)
+    lines = [
+        f"🏢 <b>RentHunter — Zap Imóveis</b> | {hora}",
+        "",
+        f"📊 {total} imóveis analisados",
+        "",
+        "🏆 <b>Top 5 do dia:</b>",
+    ]
+
+    for _, row in top10.head(5).iterrows():
+        bairro  = row.get('bairro', 'N/A')
+        custo   = row.get('custo_total', 0)
+        area    = row.get('area', 0)
+        score   = int(row.get('score', 0))
+        ranking = int(row.get('ranking', 0))
+        url     = row.get('url', '')
+        lines.append(
+            f"#{ranking} score {score} | {bairro} | R$ {int(custo):,} | {int(area)}m²"
+        )
+        lines.append(f"   🔗 {url}")
+
+    if alerts:
+        lines.append("")
+        lines.append(f"🔔 <b>{len(alerts)} alerta(s) novo(s):</b>")
+        for a in alerts:
+            tipo = "NOVO" if a['alerta_tipo'] == 'novo' else "MELHORIA"
+            lines.append(f"[{tipo}] #{a['ranking']} score {int(a['score'])} | {a['bairro']} | R$ {int(a['custo_total']):,}")
+            lines.append(f"   🔗 {a['url']}")
+
+    return "\n".join(lines)
+
+
+def build_telegram_error_message(error: str) -> str:
+    """Monta mensagem de erro para o Telegram."""
+    hora = datetime.now().strftime('%d/%m %H:%M')
+    return (
+        f"❌ <b>RentHunter — Zap falhou</b> | {hora}\n\n"
+        f"Erro: {error[:300]}"
+    )
+
+
+# ============================================================================
 # SCRAPER ZAP
 # ============================================================================
 
@@ -543,7 +614,7 @@ def main() -> int:
                 tipo = "novo" if alert['alerta_tipo'] == 'novo' else "melhoria"
                 logger.info(f"   [{tipo.upper()}] #{alert['ranking']} - {alert['titulo']}")
 
-        logger.info("\n[6/6] Atualizando estado...")
+        logger.info("\n[6/7] Atualizando estado...")
         state = update_state(df, state)
         save_state(state)
 
@@ -553,6 +624,10 @@ def main() -> int:
 
         save_logs(execution_log)
         cleanup_old_logs()
+
+        logger.info("\n[7/7] Enviando notificação Telegram...")
+        msg = build_telegram_message(top10, alerts, execution_log)
+        send_telegram(msg)
 
         logger.info("\n" + "="*70)
         logger.info("✅ PIPELINE CONCLUÍDO COM SUCESSO")
@@ -570,6 +645,7 @@ def main() -> int:
         execution_log['mensagens'].append(f"Erro: {str(e)}")
         execution_log['tempo_execucao_seg'] = round(time.time() - start_time, 2)
         save_logs(execution_log)
+        send_telegram(build_telegram_error_message(str(e)))
         return 1
 
 

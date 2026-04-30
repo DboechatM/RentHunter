@@ -32,7 +32,7 @@ from bs4 import BeautifulSoup
 # CONFIGURAÇÕES GLOBAIS
 # ============================================================================
 
-DATA_DIR = Path("data")
+DATA_DIR = Path("data/olx")
 STATE_DIR = DATA_DIR
 LOGS_DIR = DATA_DIR / "logs"
 TOP_DIR = DATA_DIR / "top"

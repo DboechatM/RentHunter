@@ -627,6 +627,42 @@
     "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/rua-santa-clara-403-501rua-santa-clara-403-501-1498037069": {
       "first_seen": "2026-04-29T19:04:59.405277",
       "last_score": 60.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-no-flamengo-1498160974": {
+      "first_seen": "2026-04-30T10:56:09.906365",
+      "last_score": 80.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-locacao-botafogo-rio-de-janeiro-rj-1498138648": {
+      "first_seen": "2026-04-30T10:56:09.906365",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-locacao-2-quartos-67m-flamengo-rio-de-janeiro-rj-1498114080": {
+      "first_seen": "2026-04-30T10:56:09.906365",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apt-quarto-e-sala-1498144146": {
+      "first_seen": "2026-04-30T10:56:09.906365",
+      "last_score": 45.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/rua-silva-castro-10-1006rua-silva-castro-10-1006-1498155181": {
+      "first_seen": "2026-04-30T10:56:09.906365",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-quarto-e-sala-para-alugar-na-rua-repulica-do-peru-em-copacabana-amplo-e-refor-1498159847": {
+      "first_seen": "2026-04-30T10:56:09.906365",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/55m-novinho-zero-km-vaga-escritura-divididos-sala-quarto-area-servico-vista-verde-1493355889": {
+      "first_seen": "2026-04-30T10:56:09.906365",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-em-copacabana-1-quarto-com-dependencia-completa-e-vaga-de-garagem-1498144805": {
+      "first_seen": "2026-04-30T10:56:09.906365",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-1-dormitorio-para-alugar-copacabana-rio-de-janeiro-rj-1498183704": {
+      "first_seen": "2026-04-30T10:56:09.906365",
+      "last_score": 30.0
     }
   }
 }

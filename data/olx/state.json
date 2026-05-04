@@ -327,7 +327,7 @@
     },
     "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-possui-40-metros-quadrados-com-1-quarto-em-copacabana-rio-de-janeiro-1494576709": {
       "first_seen": "2026-04-30T14:18:23.694073",
-      "last_score": 35.0
+      "last_score": 45.0
     },
     "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/quarto-e-sala-mobiliado-no-humaita-rio-de-janeiro-rj-1495028533": {
       "first_seen": "2026-04-30T14:18:23.694073",
@@ -592,6 +592,38 @@
     "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/rua-silva-castro-10-1006rua-silva-castro-10-1006-1499038984": {
       "first_seen": "2026-05-04T11:02:05.386452",
       "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-no-flamengo-1499232595": {
+      "first_seen": "2026-05-04T19:08:33.115079",
+      "last_score": 80.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-tem-50-metros-quadrados-com-2-quartos-em-laranjeiras-rio-de-janeiro-1499128679": {
+      "first_seen": "2026-05-04T19:08:33.115079",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/casa-em-condominio-fechado-vista-deslumbrante-lazer-3-qts-1499157204": {
+      "first_seen": "2026-05-04T19:08:33.115079",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-em-botafogo-perto-do-metro-1499225502": {
+      "first_seen": "2026-05-04T19:08:33.115079",
+      "last_score": 75.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/otimo-quarto-e-sala-na-rua-cardeal-leme-em-santa-teresa-1499203756": {
+      "first_seen": "2026-05-04T19:08:33.115079",
+      "last_score": 65.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/rua-santa-clara-403-501rua-santa-clara-403-501-1499215589": {
+      "first_seen": "2026-05-04T19:08:33.115079",
+      "last_score": 60.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-mobiliado-com-2-suites-e-infraestrutura-completa-de-lazer-em-ipanema-1499222718": {
+      "first_seen": "2026-05-04T19:08:33.115079",
+      "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-com-48-metros-quadrados-com-1-quarto-1499170476": {
+      "first_seen": "2026-05-04T19:08:33.115079",
+      "last_score": 30.0
     }
   }
 }

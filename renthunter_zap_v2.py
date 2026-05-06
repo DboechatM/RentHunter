@@ -413,7 +413,9 @@ def send_telegram(message: str) -> None:
     """Envia mensagem via Telegram Bot API."""
     token   = os.getenv("TELEGRAM_BOT_TOKEN")
     chat_id = os.getenv("TELEGRAM_CHAT_ID")
-
+    print("TOKEN EXISTS:", bool(os.getenv("TELEGRAM_BOT_TOKEN")))
+    print("CHAT_ID EXISTS:", bool(os.getenv("TELEGRAM_CHAT_ID")))
+    
     if not token or not chat_id:
         logger.info("Telegram não configurado, pulando notificação")
         return

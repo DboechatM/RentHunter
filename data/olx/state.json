@@ -740,6 +740,26 @@
     "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-com-110-metros-quadrados-com-3-quartos-1499845026": {
       "first_seen": "2026-05-06T19:15:48.545174",
       "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento--residencial-flamengo-1499891822": {
+      "first_seen": "2026-05-07T11:09:39.164069",
+      "last_score": 65.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-apartamento-padrao-em-rio-de-janeiro-rj-copacabana-1499960670": {
+      "first_seen": "2026-05-07T11:09:39.164069",
+      "last_score": 50.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-2-dormitorios-para-alugar-62-m-por-r-5-534-60-mes-ipanema-rio-de-ja-1499956725": {
+      "first_seen": "2026-05-07T11:09:39.164069",
+      "last_score": 45.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/rua-silva-castro-10-1006rua-silva-castro-10-1006-1499986113": {
+      "first_seen": "2026-05-07T11:09:39.164069",
+      "last_score": 35.0
+    },
+    "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-tem-59-metros-quadrados-com-1-quarto-1499904296": {
+      "first_seen": "2026-05-07T11:09:39.164069",
+      "last_score": 35.0
     }
   }
 }

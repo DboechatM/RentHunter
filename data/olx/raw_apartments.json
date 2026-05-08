@@ -1,451 +1,73 @@
 [
   {
-    "titulo": "Excelente apartamento no posto 05 de Copacabana para alugar - Próximo ao metrô",
+    "titulo": "Copacabana - Salão com 2 Quartos e Vaga de Garagem",
     "preco": 3500.0,
-    "condominio": 838.0,
-    "iptu": 138.0,
-    "total": 4476.0,
+    "condominio": 1280.0,
+    "iptu": 355.0,
+    "total": 5135.0,
     "bairro": "Copacabana",
     "cidade": "Rio de Janeiro",
-    "area": "44m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-apartamento-no-posto-05-de-copacabana-para-alugar-proximo-ao-metro-1500205507",
-    "garagem": 0,
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Excelente quarto e sala no Catete",
-    "preco": 3300.0,
-    "condominio": 680.0,
-    "iptu": 107.0,
-    "total": 4087.0,
-    "bairro": "Flamengo",
-    "cidade": "Rio de Janeiro",
-    "area": "40m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-quarto-e-sala-no-catete-1500203708",
-    "garagem": "0",
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Rua Santa Clara, 403 / 501Rua Santa Clara, 403 / 501",
-    "preco": 3000.0,
-    "condominio": 862.0,
-    "iptu": 132.0,
-    "total": 3994.0,
-    "bairro": "Copacabana",
-    "cidade": "Rio de Janeiro",
-    "area": "60m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/rua-santa-clara-403-501rua-santa-clara-403-501-1500182878",
-    "garagem": 0,
+    "area": "77m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/copacabana-salao-com-2-quartos-e-vaga-de-garagem-1500408521",
+    "garagem": "1",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
-    "titulo": "Excelente Apartamento Mobiliado na Av. Prado Junior Viva no melhor ponto do Rio! Localizad",
-    "preco": 2600.0,
-    "condominio": 1189.0,
-    "iptu": 111.0,
-    "total": 3900.0,
+    "titulo": "QUADRISSIMA DA PRAIA",
+    "preco": 2900.0,
+    "condominio": 661.0,
+    "iptu": 230.0,
+    "total": 3791.0,
     "bairro": "Copacabana",
     "cidade": "Rio de Janeiro",
-    "area": "45m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-apartamento-mobiliado-na-av-prado-junior-viva-no-melhor-ponto-do-rio-localizad-1500180269",
-    "garagem": 0,
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Imóvel para aluguel com 41 metros quadrados com 1 quarto em Copacabana - Rio de Janeiro -",
-    "preco": 2500.0,
-    "condominio": 922.0,
-    "iptu": 153.0,
-    "total": 3575.0,
-    "bairro": "Copacabana",
-    "cidade": "Rio de Janeiro",
-    "area": "41m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-41-metros-quadrados-com-1-quarto-em-copacabana-rio-de-janeiro-1500145114",
-    "garagem": 0,
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Imóvel para aluguel com 48 metros quadrados. 1 quarto em Flamengo - Rio de Janeiro - RJ",
-    "preco": 3200.0,
-    "condominio": 720.0,
-    "iptu": 144.0,
-    "total": 4064.0,
-    "bairro": "Flamengo",
-    "cidade": "Rio de Janeiro",
-    "area": "48m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-48-metros-quadrados-1-quarto-em-flamengo-rio-de-janeiro-rj-1500131178",
+    "area": "54m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/quadrissima-da-praia-1500406010",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
-    "titulo": "Alugo apartamento reformado no melhor ponto de Laranjeiras",
-    "preco": 2800.0,
-    "condominio": 450.0,
-    "iptu": 100.0,
-    "total": 3350.0,
+    "titulo": "Rua Silva Castro, 10 / 1006Rua Silva Castro, 10 / 1006",
+    "preco": 3800.0,
+    "condominio": 710.0,
+    "iptu": 223.0,
+    "total": 4733.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "52m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/rua-silva-castro-10-1006rua-silva-castro-10-1006-1500330044",
+    "garagem": 0,
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Temporada curta ou longa",
+    "preco": 3000.0,
+    "condominio": 1500.0,
+    "iptu": 250.0,
+    "total": 4750.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "55m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/temporada-curta-ou-longa-1500327673",
+    "garagem": "0",
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Apartamento 3 quartos com suíte e vaga em Laranjeiras",
+    "preco": 3700.0,
+    "condominio": 2370.0,
+    "iptu": 0.0,
+    "total": 6070.0,
     "bairro": "Laranjeiras",
     "cidade": "Rio de Janeiro",
-    "area": "45m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/alugo-apartamento-reformado-no-melhor-ponto-de-laranjeiras-1498473072",
-    "garagem": "0",
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Apartamento Apartamento Padrão em RIO DE JANEIRO - RJ, COPACABANA",
-    "preco": 3980.0,
-    "condominio": 2200.0,
-    "iptu": 434.0,
-    "total": 6614.0,
-    "bairro": "Copacabana",
-    "cidade": "Rio de Janeiro",
-    "area": "100m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-apartamento-padrao-em-rio-de-janeiro-rj-copacabana-1499960670",
+    "area": "102m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-3-quartos-com-suite-e-vaga-em-laranjeiras-1500294884",
     "garagem": "1",
     "quartos": "3",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Apartamento com 2 dormitórios para alugar, 62 m² por R$ 5.534,60/mês - Ipanema - Rio de Ja",
-    "preco": 3800.0,
-    "condominio": 1380.0,
-    "iptu": 355.0,
-    "total": 5535.0,
-    "bairro": "Ipanema",
-    "cidade": "Rio de Janeiro",
-    "area": "62m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-2-dormitorios-para-alugar-62-m-por-r-5-534-60-mes-ipanema-rio-de-ja-1499956725",
-    "garagem": "0",
-    "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Alugo apartamento! ZONA SUL  com vista para o mar.",
-    "preco": 4000.0,
-    "condominio": 0.0,
-    "iptu": 0.0,
-    "total": 4000.0,
-    "bairro": "Vidigal",
-    "cidade": "Rio de Janeiro",
-    "area": "45m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/alugo-apartamento-zona-sul-com-vista-para-o-mar-1492596093",
-    "garagem": "0",
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Apartamento para aluguel tem 59 metros quadrados com 1 quarto",
-    "preco": 3950.0,
-    "condominio": 1650.0,
-    "iptu": 166.0,
-    "total": 5766.0,
-    "bairro": "Botafogo",
-    "cidade": "Rio de Janeiro",
-    "area": "59m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-tem-59-metros-quadrados-com-1-quarto-1499904296",
-    "garagem": "1",
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Apartamento : / Residencial / Flamengo",
-    "preco": 3500.0,
-    "condominio": 753.0,
-    "iptu": 146.0,
-    "total": 4399.0,
-    "bairro": "Flamengo",
-    "cidade": "Rio de Janeiro",
-    "area": "46m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento--residencial-flamengo-1499891822",
-    "garagem": 0,
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Apartamento para alugar três quartos em Copacabana.Apartamento para alugar três quartos em",
-    "preco": 4000.0,
-    "condominio": 1743.0,
-    "iptu": 354.0,
-    "total": 6097.0,
-    "bairro": "Copacabana",
-    "cidade": "Rio de Janeiro",
-    "area": "114m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-alugar-tres-quartos-em-copacabana-apartamento-para-alugar-tres-quartos-em-1499850428",
-    "garagem": "1",
-    "quartos": "3",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Alugo 2 quartos no Flamengo",
-    "preco": 3600.0,
-    "condominio": 1260.0,
-    "iptu": 148.0,
-    "total": 5008.0,
-    "bairro": "Flamengo",
-    "cidade": "Rio de Janeiro",
-    "area": "85m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/alugo-2-quartos-no-flamengo-1494395634",
-    "garagem": "0",
-    "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Apartamento para aluguel possui 68 metros quadrados com 2 quartos",
-    "preco": 3250.0,
-    "condominio": 950.0,
-    "iptu": 226.0,
-    "total": 4426.0,
-    "bairro": "Botafogo",
-    "cidade": "Rio de Janeiro",
-    "area": "68m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-possui-68-metros-quadrados-com-2-quartos-1495672995",
-    "garagem": 0,
-    "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Copacabana 3 Quartos rua calma e segura!",
-    "preco": 4000.0,
-    "condominio": 2200.0,
-    "iptu": 434.0,
-    "total": 6634.0,
-    "bairro": "Copacabana",
-    "cidade": "Rio de Janeiro",
-    "area": "110m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/copacabana-3-quartos-rua-calma-e-segura-1499780980",
-    "garagem": "1",
-    "quartos": "3",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Ótimo quarto e sala em Copacabana",
-    "preco": 2800.0,
-    "condominio": 990.0,
-    "iptu": 139.0,
-    "total": 3929.0,
-    "bairro": "Copacabana",
-    "cidade": "Rio de Janeiro",
-    "area": "47m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/otimo-quarto-e-sala-em-copacabana-1499728961",
-    "garagem": "0",
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Aluguel",
-    "preco": 3500.0,
-    "condominio": 0.0,
-    "iptu": 0.0,
-    "total": 3500.0,
-    "bairro": "Botafogo",
-    "cidade": "Rio de Janeiro",
-    "area": "58m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/aluguel-1499716180",
-    "garagem": "1",
-    "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "LARGO DO MACHADO - Ótimo quarto e sala, em frente ao Metrô",
-    "preco": 3500.0,
-    "condominio": 538.0,
-    "iptu": 162.0,
-    "total": 4200.0,
-    "bairro": "Catete",
-    "cidade": "Rio de Janeiro",
-    "area": "53m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/largo-do-machado-otimo-quarto-e-sala-em-frente-ao-metro-1499711744",
-    "garagem": "0",
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Cobertura / Penthouse para locação, Botafogo, Rio de Janeiro, RJ",
-    "preco": 3800.0,
-    "condominio": 844.0,
-    "iptu": 172.0,
-    "total": 4816.0,
-    "bairro": "Botafogo",
-    "cidade": "Rio de Janeiro",
-    "area": "66m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/cobertura-penthouse-para-locacao-botafogo-rio-de-janeiro-rj-1499653527",
-    "garagem": "0",
-    "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Imóvel para aluguel com 67 metros quadrados com 3 quartos em Botafogo - Rio de Janeiro - R",
-    "preco": 3200.0,
-    "condominio": 990.0,
-    "iptu": 185.0,
-    "total": 4375.0,
-    "bairro": "Botafogo",
-    "cidade": "Rio de Janeiro",
-    "area": "67m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-67-metros-quadrados-com-3-quartos-em-botafogo-rio-de-janeiro-r-1499630841",
-    "garagem": "0",
-    "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Apartamento para aluguel possui 70 metros quadrados com 2 quartos",
-    "preco": 4000.0,
-    "condominio": 727.0,
-    "iptu": 243.0,
-    "total": 4970.0,
-    "bairro": "Flamengo",
-    "cidade": "Rio de Janeiro",
-    "area": "70m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-possui-70-metros-quadrados-com-2-quartos-1493781903",
-    "garagem": 0,
-    "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "APARTAMENTO TOTALMENTE REFORMADO NO LEME, MODERNIZADO, GALERIA DE GRANDE CIRCULAÇAO DE PES",
-    "preco": 4000.0,
-    "condominio": 1100.0,
-    "iptu": 625.0,
-    "total": 5725.0,
-    "bairro": "Copacabana",
-    "cidade": "Rio de Janeiro",
-    "area": "74m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-totalmente-reformado-no-leme-modernizado-galeria-de-grande-circulacao-de-pes-1499589914",
-    "garagem": "0",
-    "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Apartamento com 2 quartos, portaria 24 hrs, 81m² por R$ 4.000,00/mês - Copacabana - Rio de",
-    "preco": 4000.0,
-    "condominio": 1071.0,
-    "iptu": 0.0,
-    "total": 5071.0,
-    "bairro": "Copacabana",
-    "cidade": "Rio de Janeiro",
-    "area": "81m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-2-quartos-portaria-24-hrs-81m-por-r-4-000-00-mes-copacabana-rio-de-1499569816",
-    "garagem": "0",
-    "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Apartamento quarto e sala  Copacabana",
-    "preco": 3800.0,
-    "condominio": 657.0,
-    "iptu": 140.0,
-    "total": 4597.0,
-    "bairro": "Copacabana",
-    "cidade": "Rio de Janeiro",
-    "area": "42m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-quarto-e-sala-copacabana-1499558793",
-    "garagem": "0",
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Your House aluga excelente 2 quartos semimobiliado com churrasqueira em Copacabana",
-    "preco": 3500.0,
-    "condominio": 803.0,
-    "iptu": 92.0,
-    "total": 4395.0,
-    "bairro": "Copacabana",
-    "cidade": "Rio de Janeiro",
-    "area": "45m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/your-house-aluga-excelente-2-quartos-semimobiliado-com-churrasqueira-em-copacabana-1499497970",
-    "garagem": 0,
-    "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Casa de Vila para aluguel com 75 metros quadrados com 2 quartos",
-    "preco": 3500.0,
-    "condominio": 0.0,
-    "iptu": 150.0,
-    "total": 3650.0,
-    "bairro": "Santa Teresa",
-    "cidade": "Rio de Janeiro",
-    "area": "103m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/casa-de-vila-para-aluguel-com-75-metros-quadrados-com-2-quartos-1499492919",
-    "garagem": 0,
-    "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Sala, quarto, banheiro e cozinha.",
-    "preco": 4000.0,
-    "condominio": 672.0,
-    "iptu": 247.0,
-    "total": 4919.0,
-    "bairro": "Ipanema",
-    "cidade": "Rio de Janeiro",
-    "area": "45m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/sala-quarto-banheiro-e-cozinha-1499475435",
-    "garagem": 0,
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Imóvel para aluguel tem 90 metros quadrados com 3 quartos em Humaitá - Rio de Janeiro - RJ",
-    "preco": 3800.0,
-    "condominio": 1850.0,
-    "iptu": 350.0,
-    "total": 6000.0,
-    "bairro": "Humaitá",
-    "cidade": "Rio de Janeiro",
-    "area": "90m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-tem-90-metros-quadrados-com-3-quartos-em-humaita-rio-de-janeiro-rj-1499474917",
-    "garagem": "1",
-    "quartos": "3",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Suíte com varanda e vista numa Pousada - área nobre de Santa Teresa",
-    "preco": 3300.0,
-    "condominio": 0.0,
-    "iptu": 0.0,
-    "total": 3300.0,
-    "bairro": "Santa Teresa",
-    "cidade": "Rio de Janeiro",
-    "area": "40m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/suite-com-varanda-e-vista-numa-pousada-area-nobre-de-santa-teresa-1429800116",
-    "garagem": "0",
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Alugo Apartamento em Laranjeiras Quarto e sala",
-    "preco": 2500.0,
-    "condominio": 1100.0,
-    "iptu": 0.0,
-    "total": 3600.0,
-    "bairro": "Copacabana",
-    "cidade": "Rio de Janeiro",
-    "area": "40m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/alugo-apartamento-em-laranjeiras-quarto-e-sala-1499406692",
-    "garagem": "0",
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
-  },
-  {
-    "titulo": "Apartamento com 1 dormitório para alugar, 42 m² por R$ 2.700,00/mês - Copacabana - Rio de",
-    "preco": 2700.0,
-    "condominio": 812.0,
-    "iptu": 155.0,
-    "total": 3667.0,
-    "bairro": "Copacabana",
-    "cidade": "Rio de Janeiro",
-    "area": "42m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-1-dormitorio-para-alugar-42-m-por-r-2-700-00-mes-copacabana-rio-de-1499344117",
-    "garagem": "0",
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Alugo Apartamento de 2 quartos (original3) de 80 m2 no Catete",
@@ -459,7 +81,441 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/alugo-apartamento-de-2-quartos-original3-de-80-m2-no-catete-1489867389",
     "garagem": 0,
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "APARTAMENTO RESIDENCIAL em RIO DE JANEIRO - RJ, LARANJEIRAS",
+    "preco": 3300.0,
+    "condominio": 1050.0,
+    "iptu": 137.0,
+    "total": 4487.0,
+    "bairro": "Laranjeiras",
+    "cidade": "Rio de Janeiro",
+    "area": "60m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-residencial-em-rio-de-janeiro-rj-laranjeiras-1500268988",
+    "garagem": "1",
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Vista verde em Copacabana",
+    "preco": 3400.0,
+    "condominio": 858.0,
+    "iptu": 151.0,
+    "total": 4409.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "60m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/vista-verde-em-copacabana-1500257952",
+    "garagem": "1",
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Urca, alugo apartamento com 2 quartos, REFORMADO, 45m2",
+    "preco": 3800.0,
+    "condominio": 600.0,
+    "iptu": 150.0,
+    "total": 4550.0,
+    "bairro": "Urca",
+    "cidade": "Rio de Janeiro",
+    "area": "45m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/urca-alugo-apartamento-com-2-quartos-reformado-45m2-1500224839",
+    "garagem": "0",
+    "quartos": "2",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Excelente apartamento no posto 05 de Copacabana para alugar - Próximo ao metrô",
+    "preco": 3500.0,
+    "condominio": 838.0,
+    "iptu": 138.0,
+    "total": 4476.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "44m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-apartamento-no-posto-05-de-copacabana-para-alugar-proximo-ao-metro-1500205507",
+    "garagem": 0,
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Excelente quarto e sala no Catete",
+    "preco": 3300.0,
+    "condominio": 680.0,
+    "iptu": 107.0,
+    "total": 4087.0,
+    "bairro": "Flamengo",
+    "cidade": "Rio de Janeiro",
+    "area": "40m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-quarto-e-sala-no-catete-1500203708",
+    "garagem": "0",
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Excelente Apartamento Mobiliado na Av. Prado Junior Viva no melhor ponto do Rio! Localizad",
+    "preco": 2600.0,
+    "condominio": 1189.0,
+    "iptu": 111.0,
+    "total": 3900.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "45m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-apartamento-mobiliado-na-av-prado-junior-viva-no-melhor-ponto-do-rio-localizad-1500180269",
+    "garagem": 0,
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Imóvel para aluguel com 41 metros quadrados com 1 quarto em Copacabana - Rio de Janeiro -",
+    "preco": 2500.0,
+    "condominio": 922.0,
+    "iptu": 153.0,
+    "total": 3575.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "41m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-41-metros-quadrados-com-1-quarto-em-copacabana-rio-de-janeiro-1500145114",
+    "garagem": 0,
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Imóvel para aluguel com 48 metros quadrados. 1 quarto em Flamengo - Rio de Janeiro - RJ",
+    "preco": 3200.0,
+    "condominio": 720.0,
+    "iptu": 144.0,
+    "total": 4064.0,
+    "bairro": "Flamengo",
+    "cidade": "Rio de Janeiro",
+    "area": "48m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-48-metros-quadrados-1-quarto-em-flamengo-rio-de-janeiro-rj-1500131178",
+    "garagem": "0",
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Alugo apartamento reformado no melhor ponto de Laranjeiras",
+    "preco": 2800.0,
+    "condominio": 450.0,
+    "iptu": 100.0,
+    "total": 3350.0,
+    "bairro": "Laranjeiras",
+    "cidade": "Rio de Janeiro",
+    "area": "45m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/alugo-apartamento-reformado-no-melhor-ponto-de-laranjeiras-1498473072",
+    "garagem": "0",
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Apartamento Apartamento Padrão em RIO DE JANEIRO - RJ, COPACABANA",
+    "preco": 3980.0,
+    "condominio": 2200.0,
+    "iptu": 434.0,
+    "total": 6614.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "100m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-apartamento-padrao-em-rio-de-janeiro-rj-copacabana-1499960670",
+    "garagem": "1",
+    "quartos": "3",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Apartamento com 2 dormitórios para alugar, 62 m² por R$ 5.534,60/mês - Ipanema - Rio de Ja",
+    "preco": 3800.0,
+    "condominio": 1380.0,
+    "iptu": 355.0,
+    "total": 5535.0,
+    "bairro": "Ipanema",
+    "cidade": "Rio de Janeiro",
+    "area": "62m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-2-dormitorios-para-alugar-62-m-por-r-5-534-60-mes-ipanema-rio-de-ja-1499956725",
+    "garagem": "0",
+    "quartos": "2",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Alugo apartamento! ZONA SUL  com vista para o mar.",
+    "preco": 4000.0,
+    "condominio": 0.0,
+    "iptu": 0.0,
+    "total": 4000.0,
+    "bairro": "Vidigal",
+    "cidade": "Rio de Janeiro",
+    "area": "45m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/alugo-apartamento-zona-sul-com-vista-para-o-mar-1492596093",
+    "garagem": "0",
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Apartamento para aluguel tem 59 metros quadrados com 1 quarto",
+    "preco": 3950.0,
+    "condominio": 1650.0,
+    "iptu": 166.0,
+    "total": 5766.0,
+    "bairro": "Botafogo",
+    "cidade": "Rio de Janeiro",
+    "area": "59m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-tem-59-metros-quadrados-com-1-quarto-1499904296",
+    "garagem": "1",
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Apartamento : / Residencial / Flamengo",
+    "preco": 3500.0,
+    "condominio": 753.0,
+    "iptu": 146.0,
+    "total": 4399.0,
+    "bairro": "Flamengo",
+    "cidade": "Rio de Janeiro",
+    "area": "46m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento--residencial-flamengo-1499891822",
+    "garagem": 0,
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Apartamento para alugar três quartos em Copacabana.Apartamento para alugar três quartos em",
+    "preco": 4000.0,
+    "condominio": 1743.0,
+    "iptu": 354.0,
+    "total": 6097.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "114m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-alugar-tres-quartos-em-copacabana-apartamento-para-alugar-tres-quartos-em-1499850428",
+    "garagem": "1",
+    "quartos": "3",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Alugo 2 quartos no Flamengo",
+    "preco": 3600.0,
+    "condominio": 1260.0,
+    "iptu": 148.0,
+    "total": 5008.0,
+    "bairro": "Flamengo",
+    "cidade": "Rio de Janeiro",
+    "area": "85m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/alugo-2-quartos-no-flamengo-1494395634",
+    "garagem": "0",
+    "quartos": "2",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Apartamento para aluguel possui 68 metros quadrados com 2 quartos",
+    "preco": 3250.0,
+    "condominio": 950.0,
+    "iptu": 226.0,
+    "total": 4426.0,
+    "bairro": "Botafogo",
+    "cidade": "Rio de Janeiro",
+    "area": "68m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-possui-68-metros-quadrados-com-2-quartos-1495672995",
+    "garagem": 0,
+    "quartos": "2",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Copacabana 3 Quartos rua calma e segura!",
+    "preco": 4000.0,
+    "condominio": 2200.0,
+    "iptu": 434.0,
+    "total": 6634.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "110m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/copacabana-3-quartos-rua-calma-e-segura-1499780980",
+    "garagem": "1",
+    "quartos": "3",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Ótimo quarto e sala em Copacabana",
+    "preco": 2800.0,
+    "condominio": 990.0,
+    "iptu": 139.0,
+    "total": 3929.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "47m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/otimo-quarto-e-sala-em-copacabana-1499728961",
+    "garagem": "0",
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Aluguel",
+    "preco": 3500.0,
+    "condominio": 0.0,
+    "iptu": 0.0,
+    "total": 3500.0,
+    "bairro": "Botafogo",
+    "cidade": "Rio de Janeiro",
+    "area": "58m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/aluguel-1499716180",
+    "garagem": "1",
+    "quartos": "2",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Cobertura / Penthouse para locação, Botafogo, Rio de Janeiro, RJ",
+    "preco": 3800.0,
+    "condominio": 844.0,
+    "iptu": 172.0,
+    "total": 4816.0,
+    "bairro": "Botafogo",
+    "cidade": "Rio de Janeiro",
+    "area": "66m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/cobertura-penthouse-para-locacao-botafogo-rio-de-janeiro-rj-1499653527",
+    "garagem": "0",
+    "quartos": "2",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Imóvel para aluguel com 67 metros quadrados com 3 quartos em Botafogo - Rio de Janeiro - R",
+    "preco": 3200.0,
+    "condominio": 990.0,
+    "iptu": 185.0,
+    "total": 4375.0,
+    "bairro": "Botafogo",
+    "cidade": "Rio de Janeiro",
+    "area": "67m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-67-metros-quadrados-com-3-quartos-em-botafogo-rio-de-janeiro-r-1499630841",
+    "garagem": "0",
+    "quartos": "2",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Apartamento para aluguel possui 70 metros quadrados com 2 quartos",
+    "preco": 4000.0,
+    "condominio": 727.0,
+    "iptu": 243.0,
+    "total": 4970.0,
+    "bairro": "Flamengo",
+    "cidade": "Rio de Janeiro",
+    "area": "70m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-possui-70-metros-quadrados-com-2-quartos-1493781903",
+    "garagem": 0,
+    "quartos": "2",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "APARTAMENTO TOTALMENTE REFORMADO NO LEME, MODERNIZADO, GALERIA DE GRANDE CIRCULAÇAO DE PES",
+    "preco": 4000.0,
+    "condominio": 1100.0,
+    "iptu": 625.0,
+    "total": 5725.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "75m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-totalmente-reformado-no-leme-modernizado-galeria-de-grande-circulacao-de-pes-1499589914",
+    "garagem": "0",
+    "quartos": "2",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Apartamento com 2 quartos, portaria 24 hrs, 81m² por R$ 4.000,00/mês - Copacabana - Rio de",
+    "preco": 4000.0,
+    "condominio": 1071.0,
+    "iptu": 0.0,
+    "total": 5071.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "81m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-2-quartos-portaria-24-hrs-81m-por-r-4-000-00-mes-copacabana-rio-de-1499569816",
+    "garagem": "0",
+    "quartos": "2",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Your House aluga excelente 2 quartos semimobiliado com churrasqueira em Copacabana",
+    "preco": 3500.0,
+    "condominio": 803.0,
+    "iptu": 92.0,
+    "total": 4395.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "45m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/your-house-aluga-excelente-2-quartos-semimobiliado-com-churrasqueira-em-copacabana-1499497970",
+    "garagem": 0,
+    "quartos": "2",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Casa de Vila para aluguel com 75 metros quadrados com 2 quartos",
+    "preco": 3500.0,
+    "condominio": 0.0,
+    "iptu": 150.0,
+    "total": 3650.0,
+    "bairro": "Santa Teresa",
+    "cidade": "Rio de Janeiro",
+    "area": "103m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/casa-de-vila-para-aluguel-com-75-metros-quadrados-com-2-quartos-1499492919",
+    "garagem": 0,
+    "quartos": "2",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Imóvel para aluguel tem 90 metros quadrados com 3 quartos em Humaitá - Rio de Janeiro - RJ",
+    "preco": 3800.0,
+    "condominio": 1850.0,
+    "iptu": 350.0,
+    "total": 6000.0,
+    "bairro": "Humaitá",
+    "cidade": "Rio de Janeiro",
+    "area": "90m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-tem-90-metros-quadrados-com-3-quartos-em-humaita-rio-de-janeiro-rj-1499474917",
+    "garagem": "1",
+    "quartos": "3",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Suíte com varanda e vista numa Pousada - área nobre de Santa Teresa",
+    "preco": 3300.0,
+    "condominio": 0.0,
+    "iptu": 0.0,
+    "total": 3300.0,
+    "bairro": "Santa Teresa",
+    "cidade": "Rio de Janeiro",
+    "area": "40m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/suite-com-varanda-e-vista-numa-pousada-area-nobre-de-santa-teresa-1429800116",
+    "garagem": "0",
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Alugo Apartamento em Laranjeiras Quarto e sala",
+    "preco": 2500.0,
+    "condominio": 1100.0,
+    "iptu": 0.0,
+    "total": 3600.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "40m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/alugo-apartamento-em-laranjeiras-quarto-e-sala-1499406692",
+    "garagem": "0",
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
+  },
+  {
+    "titulo": "Apartamento com 1 dormitório para alugar, 42 m² por R$ 2.700,00/mês - Copacabana - Rio de",
+    "preco": 2700.0,
+    "condominio": 812.0,
+    "iptu": 155.0,
+    "total": 3667.0,
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "area": "42m²",
+    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-1-dormitorio-para-alugar-42-m-por-r-2-700-00-mes-copacabana-rio-de-1499344117",
+    "garagem": "0",
+    "quartos": "1",
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Apartamento em Botafogo perto do metrô",
@@ -473,7 +529,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-em-botafogo-perto-do-metro-1499225502",
     "garagem": "0",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Ótimo quarto e sala na Rua Cardeal Leme, em Santa Teresa.",
@@ -487,7 +543,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/otimo-quarto-e-sala-na-rua-cardeal-leme-em-santa-teresa-1499203756",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Apartamento para aluguel tem 65 metros quadrados com 2 quartos",
@@ -501,7 +557,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-tem-65-metros-quadrados-com-2-quartos-1488879076",
     "garagem": 0,
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Apartamento para aluguel com 48 metros quadrados com 1 quarto",
@@ -515,7 +571,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-com-48-metros-quadrados-com-1-quarto-1499170476",
     "garagem": 0,
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Casa em condomínio fechado, vista deslumbrante , lazer, 3 qts",
@@ -529,7 +585,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/casa-em-condominio-fechado-vista-deslumbrante-lazer-3-qts-1499157204",
     "garagem": "0",
     "quartos": "3",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Ótima localização",
@@ -543,7 +599,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/otima-localizacao-1499082319",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Alugo casa mobiliada vidigal",
@@ -557,7 +613,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/alugo-casa-mobiliada-vidigal-1499058852",
     "garagem": "0",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Apartamento para aluguel tem 57 metros quadrados com 2 quartos",
@@ -571,7 +627,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-tem-57-metros-quadrados-com-2-quartos-1488726237",
     "garagem": 0,
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Apartamento para aluguel com 50 metros quadrados com 1 quarto",
@@ -585,7 +641,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-com-50-metros-quadrados-com-1-quarto-1484357012",
     "garagem": 0,
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Apartamento para locação 77m² 2 Quartos por R$ 6.044/Mês - Condomínio Areia Branca Leme, R",
@@ -599,7 +655,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-locacao-77m-2-quartos-por-r-6-044-mes-condominio-areia-branca-leme-r-1498880911",
     "garagem": "1",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Apartamento 1 dormitórios para alugar Glória Rio de Janeiro/RJ",
@@ -613,7 +669,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-1-dormitorios-para-alugar-gloria-rio-de-janeiro-rj-1498818070",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Imóvel para aluguel possui 58 metros quadrados com 1 quarto em Flamengo - Rio de Janeiro -",
@@ -627,7 +683,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-possui-58-metros-quadrados-com-1-quarto-em-flamengo-rio-de-janeiro-1498801119",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Imóvel para aluguel tem 58 metros quadrados com 1 quarto em Flamengo - Rio de Janeiro - RJ",
@@ -641,7 +697,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-tem-58-metros-quadrados-com-1-quarto-em-flamengo-rio-de-janeiro-rj-1498799339",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:36"
   },
   {
     "titulo": "Imóvel para aluguel com 44 metros quadrados com 1 quarto em Copacabana - Rio de Janeiro -",
@@ -655,7 +711,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-44-metros-quadrados-com-1-quarto-em-copacabana-rio-de-janeiro-1498782292",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Glória com excelente localização",
@@ -669,7 +725,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/gloria-com-excelente-localizacao-1498767435",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "TODO REFORMADO, 1 quarto em Copacabana - Rio de Janeiro - RJ",
@@ -683,7 +739,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/todo-reformado-1-quarto-em-copacabana-rio-de-janeiro-rj-1498705847",
     "garagem": 0,
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apartamento para aluguel com 55 metros quadrados com 1 quarto",
@@ -697,7 +753,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-com-55-metros-quadrados-com-1-quarto-1496066700",
     "garagem": 0,
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:50"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apartamento para aluguel Copacabana com 43 m² , 1 quarto .",
@@ -711,7 +767,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-aluguel-copacabana-com-43-m-1-quarto-1498557226",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Excelente quarto e sala",
@@ -725,21 +781,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-quarto-e-sala-1498459032",
     "garagem": 0,
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
-  },
-  {
-    "titulo": "Viva Botafogo Apartamento Moderno com Planta Integrada e Excelente Localização",
-    "preco": 3800.0,
-    "condominio": 1300.0,
-    "iptu": 471.0,
-    "total": 5571.0,
-    "bairro": "Botafogo",
-    "cidade": "Rio de Janeiro",
-    "area": "71m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/viva-botafogo-apartamento-moderno-com-planta-integrada-e-excelente-localizacao-1498407711",
-    "garagem": 0,
-    "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apartamento com 2 quartos para alugar, 86m² em Botafogo RJ",
@@ -753,7 +795,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-2-quartos-para-alugar-86m-em-botafogo-rj-1498407117",
     "garagem": 0,
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apartamento com 2 quartos para alugar, 86m² em Botafogo RJ",
@@ -767,7 +809,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-2-quartos-para-alugar-86m-em-botafogo-rj-1498322529",
     "garagem": 0,
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Viva Botafogo Apartamento Moderno com Planta Integrada e Excelente Localização",
@@ -781,7 +823,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/viva-botafogo-apartamento-moderno-com-planta-integrada-e-excelente-localizacao-1498322532",
     "garagem": 0,
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apartamento quarto e sala para alugar em Copacabana próximo ao metrô Arco verde",
@@ -795,7 +837,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-quarto-e-sala-para-alugar-em-copacabana-proximo-ao-metro-arco-verde-1498318488",
     "garagem": 0,
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Aluguel e venda de apartamento de 1 quarto mobiliado na Lagoa",
@@ -809,7 +851,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/aluguel-e-venda-de-apartamento-de-1-quarto-mobiliado-na-lagoa-1498314224",
     "garagem": "1",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Imóvel para aluguel com 46 metros quadrados com 1 quarto em Copacabana - Rio de Janeiro -",
@@ -823,7 +865,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-46-metros-quadrados-com-1-quarto-em-copacabana-rio-de-janeiro-1498312985",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "VOLUNTARIOS DA PATRIA 450 APTO 508",
@@ -837,7 +879,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/voluntarios-da-patria-450-apto-508-1498294480",
     "garagem": 0,
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Rua Figueiredo Magalhaes, 598 aptº 947 Bloco F",
@@ -851,7 +893,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/rua-figueiredo-magalhaes-598-apt-947-bloco-f-1498263765",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "APARTAMENTO PRÓXIMO A LAPA",
@@ -865,7 +907,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-proximo-a-lapa-1498209647",
     "garagem": "0",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apartamento com 1 dormitório para alugar - Copacabana - Rio de Janeiro/RJ",
@@ -879,7 +921,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-com-1-dormitorio-para-alugar-copacabana-rio-de-janeiro-rj-1498183704",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apartamento quarto e sala para alugar na Rua Repúlica do Perú em Copacabana, amplo e refor",
@@ -893,7 +935,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-quarto-e-sala-para-alugar-na-rua-repulica-do-peru-em-copacabana-amplo-e-refor-1498159847",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apt.quarto e sala",
@@ -907,7 +949,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apt-quarto-e-sala-1498144146",
     "garagem": "1",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apartamento para locação, Botafogo, Rio de Janeiro, RJ",
@@ -921,7 +963,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-locacao-botafogo-rio-de-janeiro-rj-1498138648",
     "garagem": "0",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Copacabana 1 quarto - Apartamento para aluguel - 5375",
@@ -935,7 +977,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/copacabana-1-quarto-apartamento-para-aluguel-5375-1497876555",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apartamento para alugar em Copacabana 1 quartos  6687",
@@ -949,21 +991,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-alugar-em-copacabana-1-quartos-6687-1497876462",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
-  },
-  {
-    "titulo": "Leme  apto com 2 quartos em  a uma quadra da praia- Rio de Janeiro - RJ",
-    "preco": 3900.0,
-    "condominio": 1050.0,
-    "iptu": 220.0,
-    "total": 5170.0,
-    "bairro": "Leme",
-    "cidade": "Rio de Janeiro",
-    "area": "52m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/leme-apto-com-2-quartos-em-a-uma-quadra-da-praia-rio-de-janeiro-rj-1497827408",
-    "garagem": 0,
-    "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "APARTAMENTO DE FRENTE MOBILIADO NO REAL RESIDENCE HOTEL COM VARANDA, SALA E QUARTO SEPARAD",
@@ -977,7 +1005,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-de-frente-mobiliado-no-real-residence-hotel-com-varanda-sala-e-quarto-separad-1497824357",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "OTIMO QUARTO ATLANTICA COPACABANA POSTO 5",
@@ -991,7 +1019,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/otimo-quarto-atlantica-copacabana-posto-5-1496195887",
     "garagem": "0",
     "quartos": "3",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Imóvel para aluguel no Flamengo - Rio de Janeiro - RJ",
@@ -1005,7 +1033,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-no-flamengo-rio-de-janeiro-rj-1497656495",
     "garagem": 0,
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Imóvel para aluguel com 50 metros quadrados com 1 quarto em Copacabana - Rio de Janeiro -",
@@ -1019,7 +1047,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-50-metros-quadrados-com-1-quarto-em-copacabana-rio-de-janeiro-1497599025",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "APARTAMENTO REFORMADO SALA E QUARTO EM COPACABANA  SOL DA MANHÃ",
@@ -1033,7 +1061,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-reformado-sala-e-quarto-em-copacabana-sol-da-manha-1497566365",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Botafogo 1 quarto - Apartamento para aluguel - 6686",
@@ -1047,21 +1075,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/botafogo-1-quarto-apartamento-para-aluguel-6686-1497515495",
     "garagem": "1",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
-  },
-  {
-    "titulo": "Apartamento - C. 1105 Rua Silveira Martins, 505 - Flamengo",
-    "preco": 2400.0,
-    "condominio": 650.0,
-    "iptu": 102.0,
-    "total": 3152.0,
-    "bairro": "Flamengo",
-    "cidade": "Rio de Janeiro",
-    "area": "40m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-c-1105-rua-silveira-martins-505-flamengo-1497477882",
-    "garagem": "0",
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apartamento de 60m², em Copacabana Excelente localização!",
@@ -1075,7 +1089,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-de-60m-em-copacabana-excelente-localizacao-1497419465",
     "garagem": 0,
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Imóvel para aluguel possui 68 metros quadrados com 2 quartos em Flamengo - Rio de Janeiro",
@@ -1089,7 +1103,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-possui-68-metros-quadrados-com-2-quartos-em-flamengo-rio-de-janeiro-1497318096",
     "garagem": 0,
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "ACIR ADMINISTRADORA ALUGA  APARTAMENTO TOTALMENTE REFORMADO!",
@@ -1103,7 +1117,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/acir-administradora-aluga-apartamento-totalmente-reformado-1496957566",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Aluguel de apartamento de 2 quartos em Botafogo, ha 5 minutos a pé do Metro de Botafogo",
@@ -1117,7 +1131,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/aluguel-de-apartamento-de-2-quartos-em-botafogo-ha-5-minutos-a-pe-do-metro-de-botafogo-1496957124",
     "garagem": "0",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Imóvel para aluguel tem 100 metros quadrados com 3 quartos em Santa Teresa - Rio de Janeir",
@@ -1131,7 +1145,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-tem-100-metros-quadrados-com-3-quartos-em-santa-teresa-rio-de-janeir-1496817156",
     "garagem": "0",
     "quartos": "3",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Excelente ap em Copa",
@@ -1145,7 +1159,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-ap-em-copa-1496802194",
     "garagem": 0,
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Excelente sala e quarto separados com dep. completa. Posto 5, nobre de Copacabana, segunda",
@@ -1159,7 +1173,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-sala-e-quarto-separados-com-dep-completa-posto-5-nobre-de-copacabana-segunda-1496755980",
     "garagem": 0,
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "NA ZONA SUL, UM APARTAMENTO ENCANTADOR AGUARDA NA TRANQUILA RUA BARÃO DE ITAMBI. TOTALMENT",
@@ -1169,11 +1183,11 @@
     "total": 6620.0,
     "bairro": "Botafogo",
     "cidade": "Rio de Janeiro",
-    "area": "81m²",
+    "area": "82m²",
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/na-zona-sul-um-apartamento-encantador-aguarda-na-tranquila-rua-barao-de-itambi-totalment-1496746713",
     "garagem": "0",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apê Mobiliado em Santa Teresa - Somente contratos de 60 a 90 dias",
@@ -1187,7 +1201,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/ape-mobiliado-em-santa-teresa-somente-contratos-de-60-a-90-dias-1496722057",
     "garagem": "0",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Conjugado para locação na Praia do Flamengo",
@@ -1201,7 +1215,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/conjugado-para-locacao-na-praia-do-flamengo-1496675549",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Excelente apartamento de 2 quartos no coração do Flamengo! Prédio com academia, piscina e",
@@ -1215,7 +1229,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/excelente-apartamento-de-2-quartos-no-coracao-do-flamengo-predio-com-academia-piscina-e-1496652624",
     "garagem": "1",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apto na Lapa - Escadaria do Selarón",
@@ -1229,7 +1243,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apto-na-lapa-escadaria-do-selaron-1493410852",
     "garagem": 0,
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Quarto  Urca / Botafogo",
@@ -1243,7 +1257,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/quarto-urca-botafogo-1496442639",
     "garagem": 0,
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "ÓTIMO APARTAMENTO 75 M², SENDO SALA AMPLA, 02 (DOIS) QUARTOS SENDO UM SUÍTE , DOIS (2) BAN",
@@ -1257,7 +1271,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/otimo-apartamento-75-m-sendo-sala-ampla-02-dois-quartos-sendo-um-suite-dois-2-ban-1496258749",
     "garagem": "0",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "ÓTIMO APARTAMENTO 75 M², SENDO SALA AMPLA, 02 (DOIS) QUARTOS SENDO UM SUÍTE , DOIS (2) BAN",
@@ -1267,11 +1281,11 @@
     "total": 5775.0,
     "bairro": "Copacabana",
     "cidade": "Rio de Janeiro",
-    "area": "74m²",
+    "area": "75m²",
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/otimo-apartamento-75-m-sendo-sala-ampla-02-dois-quartos-sendo-um-suite-dois-2-ban-1496185278",
     "garagem": "0",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Apartamento para locação em Copacabana Av. Nossa Senhora de Copacabana",
@@ -1285,7 +1299,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/apartamento-para-locacao-em-copacabana-av-nossa-senhora-de-copacabana-1496174158",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Imóvel para aluguel com 75 metros quadrados com 2 quartos em Botafogo - Rio de Janeiro - R",
@@ -1299,7 +1313,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-com-75-metros-quadrados-com-2-quartos-em-botafogo-rio-de-janeiro-r-1495651025",
     "garagem": "1",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "2 quartos com dependências Copacabana",
@@ -1313,7 +1327,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/2-quartos-com-dependencias-copacabana-1495647788",
     "garagem": "0",
     "quartos": "2",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Copacabana rua bolivar",
@@ -1327,7 +1341,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/copacabana-rua-bolivar-1495457817",
     "garagem": 0,
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "VIVA O PRIVILÉGIO DE MORAR EM UM DOS ENDEREÇOS MAIS DESEJADOS DO RIO: ESTE AMPLO APARTAMEN",
@@ -1337,11 +1351,11 @@
     "total": 7000.0,
     "bairro": "Copacabana",
     "cidade": "Rio de Janeiro",
-    "area": "152m²",
+    "area": "153m²",
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/viva-o-privilegio-de-morar-em-um-dos-enderecos-mais-desejados-do-rio-este-amplo-apartamen-1495259417",
     "garagem": "1",
     "quartos": "3",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Acir Administração Apresenta Excelente Apartamento Reformado para Locação!!!!",
@@ -1355,7 +1369,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/acir-administracao-apresenta-excelente-apartamento-reformado-para-locacao-1495246180",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Quarto e sala mobiliado no Humaitá - Rio de Janeiro - RJ",
@@ -1369,7 +1383,7 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/quarto-e-sala-mobiliado-no-humaita-rio-de-janeiro-rj-1495028533",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   },
   {
     "titulo": "Ponto privilegiado",
@@ -1383,20 +1397,6 @@
     "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/ponto-privilegiado-1494703914",
     "garagem": "0",
     "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
-  },
-  {
-    "titulo": "Imóvel para aluguel possui 40 metros quadrados com 1 quarto em Copacabana - Rio de Janeiro",
-    "preco": 3000.0,
-    "condominio": 798.0,
-    "iptu": 150.0,
-    "total": 3948.0,
-    "bairro": "Copacabana",
-    "cidade": "Rio de Janeiro",
-    "area": "40m²",
-    "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/imoveis/imovel-para-aluguel-possui-40-metros-quadrados-com-1-quarto-em-copacabana-rio-de-janeiro-1494576709",
-    "garagem": "0",
-    "quartos": "1",
-    "coleta_data": "2026-05-07 19:06:53"
+    "coleta_data": "2026-05-08 10:48:39"
   }
 ]

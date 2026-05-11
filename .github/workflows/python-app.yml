@@ -97,7 +97,7 @@ jobs:
           retention-days: 1
 
   renthunter-quintoandar:
-    name: 🏢 Scan Quinto Andar
+    name: 🏞️ Scan Quinto Andar
     runs-on: ubuntu-latest
     environment: prod
 

@@ -39,18 +39,22 @@ REGIOES = {
         'Zona Sul': {
             'url': 'https://www.quintoandar.com.br/alugar/imovel/zona-sul/de-500-a-4500-reais/apartamento/de-40-a-1000-m2',
             'emoji': '🏖️'
+        },
+        'Barra da Tijuca': {
+            'url': 'https://www.quintoandar.com.br/alugar/imovel/barra-da-tijuca/de-500-a-4500-reais/apartamento/de-40-a-1000-m2',
+            'emoji': '🏖️'
         }
     },
-    'Niterói': {
-        'Icaraí': {
-            'url': 'https://www.quintoandar.com.br/alugar/imovel/icarai-niteroi-rj-brasil/de-500-a-4500-reais/apartamento/de-40-a-1000-m2',
-            'emoji': '🏙️'
-        },
-        'São Francisco': {
-            'url': 'https://www.quintoandar.com.br/alugar/imovel/sao-francisco-niteroi-rj-brasil/de-500-a-4500-reais/apartamento/de-40-a-1000-m2',
-            'emoji': '🏙️'
-        }
-    }
+    #'Niterói': {
+    #    'Icaraí': {
+    #        'url': 'https://www.quintoandar.com.br/alugar/imovel/icarai-niteroi-rj-brasil/de-500-a-4500-reais/apartamento/de-40-a-1000-m2',
+    #        'emoji': '🏙️'
+    #    },
+    #   'São Francisco': {
+    #        'url': 'https://www.quintoandar.com.br/alugar/imovel/sao-francisco-niteroi-rj-brasil/de-500-a-4500-reais/apartamento/de-40-a-1000-m2',
+    #       'emoji': '🏙️'
+    #    }
+    #}
 }
 
 # Headers

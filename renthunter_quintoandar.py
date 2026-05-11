@@ -445,10 +445,11 @@ def enviar_telegram(df_top10: pd.DataFrame, regiao: str = "Quinto Andar") -> boo
         for idx, row in df_top10.head(10).iterrows():
             ranking = row.get('ranking', idx + 1)
             score = row.get('score', 0)
-            preco = row.get('preco', 0)
+            preco_total = row.get('custo_total', 0)
             area = row.get('area', 0)
             quartos = row.get('quartos', 0)
             bairro = row.get('bairro', 'N/A')
+            municipio = row.get('regiao', 'N/A')
             url = row.get('url', '#')
             
             # Emoji por ranking
@@ -462,11 +463,10 @@ def enviar_telegram(df_top10: pd.DataFrame, regiao: str = "Quinto Andar") -> boo
                 emoji = f"#{ranking}"
             
             mensagem += f"<b>{emoji} {ranking}º - Score: {score:.0f}/100</b>\n"
-            mensagem += f"💰 R$ {preco:,.0f}\n"
-            mensagem += f"📐 {area}m² | {quartos}Q\n"
-            mensagem += f"📍 {bairro}\n"
+            mensagem += f"💰 R$ {preco_total:,.0f}    📐 {area}m² | {quartos}Q\n"
+            mensagem += f"📍 {bairro} - {municipio}\n"
             mensagem += f"<a href='{url}'>Ver imóvel →</a>\n"
-            mensagem += "─" * 50 + "\n\n"
+            mensagem += "─" * 25 + "\n\n"
         
         mensagem += "✅ <b>RentHunter - Monitoramento Automático</b>"
         

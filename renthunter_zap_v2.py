@@ -456,7 +456,8 @@ def build_telegram_message(top10: pd.DataFrame, alerts: List[Dict], log: Dict) -
         lines.append(
             f"#{ranking} score {score} | {bairro} | R$ {int(custo):,} | {int(area)}m²"
         )
-        lines.append(f"   🔗 {url}")
+        lines.append(f"🔗 <a href='{url}'>Ver imóvel →</a>\n")
+        lines.append("─" * 25 + "\n")
 
     if alerts:
         lines.append("")
@@ -464,7 +465,7 @@ def build_telegram_message(top10: pd.DataFrame, alerts: List[Dict], log: Dict) -
         for a in alerts:
             tipo = "NOVO" if a['alerta_tipo'] == 'novo' else "MELHORIA"
             lines.append(f"[{tipo}] #{a['ranking']} score {int(a['score'])} | {a['bairro']} | R$ {int(a['custo_total']):,}")
-            lines.append(f"   🔗 {a['url']}")
+            lines.append(f"   🔗 <a href='{a['url']}'>Ver imóvel →</a>\n")
 
     return "\n".join(lines)
 

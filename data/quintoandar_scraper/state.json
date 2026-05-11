@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-05-11T10:40:13.133987",
+  "total_imoveis": 20,
+  "preco_medio": 2541.45,
+  "area_media": 67.2,
+  "top5": [
+    {
+      "id": "894592628",
+      "titulo": "Apartamento com 1Q",
+      "preco": 1400,
+      "score": 90
+    },
+    {
+      "id": "894593146",
+      "titulo": "Apartamento com 3Q",
+      "preco": 1550,
+      "score": 85
+    },
+    {
+      "id": "894963924",
+      "titulo": "Apartamento com 2Q",
+      "preco": 2500,
+      "score": 85
+    },
+    {
+      "id": "895329585",
+      "titulo": "Apartamento com 2Q",
+      "preco": 2600,
+      "score": 80
+    },
+    {
+      "id": "894364956",
+      "titulo": "Apartamento com 1Q",
+      "preco": 2400,
+      "score": 80
+    }
+  ]
+}

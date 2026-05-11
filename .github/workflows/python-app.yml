@@ -96,6 +96,42 @@ jobs:
           path: data/zap/
           retention-days: 1
 
+  renthunter-quintoandar:
+    name: 🏢 Scan Quinto Andar
+    runs-on: ubuntu-latest
+    environment: prod
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Setup Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🏢 Run RentHunter Quinto Andar
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python renthunter_quintoandar.py
+
+      - name: 📤 Upload Quinto Andar data artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quintoandar-data-${{ github.run_id }}
+          path: data/quintoandar/
+          retention-days: 1
+
   # ─────────────────────────────────────────────
   # JOB 3 — COMMIT + NOTIFY (aguarda os dois)
   # ─────────────────────────────────────────────
@@ -103,7 +139,7 @@ jobs:
     name: 📤 Commit & Notify
     runs-on: ubuntu-latest
     environment: prod
-    needs: [renthunter-olx, renthunter-zap]
+    needs: [renthunter-olx, renthunter-zap, renthunter-quintoandar]
     if: always()
 
     steps:
@@ -144,13 +180,15 @@ jobs:
           path: |
             data/logs/
             data/zap/logs/
+            data/quintoandar/logs/
           retention-days: 30
 
       # ── Telegram ──────────────────────────────
       - name: 🔔 Telegram — sucesso
         if: >
           needs.renthunter-olx.result == 'success' &&
-          needs.renthunter-zap.result == 'success'
+          needs.renthunter-zap.result == 'success' &&
+          needs.renthunter-quintoandar.result == 'success'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -160,7 +198,8 @@ jobs:
 
           Hora: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
           OLX: ✅ sucesso
-          Zap: ✅ sucesso"
+          Zap: ✅ sucesso
+          Quinto Andar: ✅ sucesso"
 
             curl -s -X POST \
               -H "Content-Type: application/json" \
@@ -171,7 +210,8 @@ jobs:
       - name: 🔔 Telegram — falha parcial ou total
         if: >
           needs.renthunter-olx.result != 'success' ||
-          needs.renthunter-zap.result != 'success'
+          needs.renthunter-zap.result != 'success' ||
+          needs.renthunter-quintoandar.result != 'success'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -179,12 +219,14 @@ jobs:
           if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
             OLX_STATUS="${{ needs.renthunter-olx.result }}"
             ZAP_STATUS="${{ needs.renthunter-zap.result }}"
+            QUINTOANDAR_STATUS="${{ needs.renthunter-quintoandar.result }}"
 
             MESSAGE="⚠️ RentHunter Scan com problemas
 
           Hora: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
           OLX: $OLX_STATUS
           Zap: $ZAP_STATUS
+          Quinto Andar: $QUINTOANDAR_STATUS
           Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
             curl -s -X POST \

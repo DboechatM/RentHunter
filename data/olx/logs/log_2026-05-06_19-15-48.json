@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-05-06T19:15:43.132135",
+  "status": "sucesso",
+  "total_encontrados": 100,
+  "top_filtrados": 10,
+  "alertas": 1,
+  "tempo_execucao_seg": 5.42,
+  "mensagens": [
+    "Estado carregado com sucesso",
+    "100 imóveis coletados"
+  ]
+}

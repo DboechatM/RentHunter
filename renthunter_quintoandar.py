@@ -18,6 +18,7 @@ Uso:
     python renthunter_quintoandar_scraper.py
 """
 
+
 import json
 import requests
 import re

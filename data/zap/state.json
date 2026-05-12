@@ -212,6 +212,18 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-50m2-id-2885886689/": {
       "first_seen": "2026-05-11T10:54:28.952109",
       "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-gloria-zona-sul-rio-de-janeiro-rj-41m2-id-2885567994/": {
+      "first_seen": "2026-05-12T11:26:32.806647",
+      "last_score": 90.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-botafogo-zona-sul-rio-de-janeiro-rj-52m2-id-2886129633/": {
+      "first_seen": "2026-05-12T11:26:32.806647",
+      "last_score": 85.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-laranjeiras-zona-sul-rio-de-janeiro-rj-63m2-id-2886072214/": {
+      "first_seen": "2026-05-12T11:26:32.806647",
+      "last_score": 70.0
     }
   }
 }

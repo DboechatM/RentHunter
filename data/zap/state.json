@@ -236,6 +236,22 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-armario-de-cozinha-botafogo-zona-sul-rio-de-janeiro-rj-52m2-id-2886129633/": {
       "first_seen": "2026-05-13T11:34:47.069023",
       "last_score": 85.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-42m2-id-2886455376/": {
+      "first_seen": "2026-05-13T19:19:21.822808",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-flamengo-zona-sul-rio-de-janeiro-rj-42m2-id-2886394280/": {
+      "first_seen": "2026-05-13T19:19:21.822808",
+      "last_score": 55.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-jardim-botanico-zona-sul-rio-de-janeiro-rj-45m2-id-2886455680/": {
+      "first_seen": "2026-05-13T19:19:21.822808",
+      "last_score": 55.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-40m2-id-2886443392/": {
+      "first_seen": "2026-05-13T19:19:21.822808",
+      "last_score": 45.0
     }
   }
 }

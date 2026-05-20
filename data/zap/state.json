@@ -420,6 +420,14 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-urca-zona-sul-rio-de-janeiro-rj-60m2-id-2887618561/": {
       "first_seen": "2026-05-19T19:20:34.091519",
       "last_score": 60.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-botafogo-zona-sul-rio-de-janeiro-rj-52m2-id-2887672592/": {
+      "first_seen": "2026-05-20T12:20:33.838427",
+      "last_score": 85.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-flamengo-zona-sul-rio-de-janeiro-rj-70m2-id-2887789916/": {
+      "first_seen": "2026-05-20T12:20:33.838427",
+      "last_score": 75.0
     }
   }
 }

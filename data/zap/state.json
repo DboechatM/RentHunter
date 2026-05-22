@@ -436,6 +436,26 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-catete-zona-sul-rio-de-janeiro-rj-40m2-id-2881601181/": {
       "first_seen": "2026-05-21T19:24:24.531303",
       "last_score": 65.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-armario-de-cozinha-botafogo-zona-sul-rio-de-janeiro-rj-52m2-id-2887672592/": {
+      "first_seen": "2026-05-22T11:39:36.226026",
+      "last_score": 85.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-tv-a-cabo-flamengo-zona-sul-rio-de-janeiro-rj-70m2-id-2888177677/": {
+      "first_seen": "2026-05-22T11:39:36.226026",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-interfone-catete-zona-sul-rio-de-janeiro-rj-46m2-id-2888087189/": {
+      "first_seen": "2026-05-22T11:39:36.226026",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-50m2-id-2888176899/": {
+      "first_seen": "2026-05-22T11:39:36.226026",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-area-de-servico-leblon-zona-sul-rio-de-janeiro-rj-40m2-id-2888186598/": {
+      "first_seen": "2026-05-22T11:39:36.226026",
+      "last_score": 50.0
     }
   }
 }

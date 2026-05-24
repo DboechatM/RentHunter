@@ -484,6 +484,10 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-58m2-id-2888422986/": {
       "first_seen": "2026-05-23T18:59:14.090243",
       "last_score": 90.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-catete-zona-sul-rio-de-janeiro-rj-46m2-id-2888087189/": {
+      "first_seen": "2026-05-24T10:26:13.252984",
+      "last_score": 75.0
     }
   }
 }

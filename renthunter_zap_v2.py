@@ -54,16 +54,16 @@ logger = logging.getLogger(__name__)
 ZAP_API_URL = "https://glue-api.zapimoveis.com.br/v2/listings"
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
                   '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': 'application/json, text/plain, */*',
     'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
     'Referer': 'https://www.zapimoveis.com.br/',
     'x-domain': '.zapimoveis.com.br',
-    'Origin': 'https://www.zapimoveis.com.br',
-    'Accept-Encoding': 'gzip, deflate',
-    'DNT': '1',
-    'Connection': 'keep-alive',
+    #'Origin': 'https://www.zapimoveis.com.br',
+    #'Accept-Encoding': 'gzip, deflate',
+    #'DNT': '1',
+    #'Connection': 'keep-alive',
 }
 
 DEFAULT_PARAMS = {
@@ -71,7 +71,7 @@ DEFAULT_PARAMS = {
     "business":            "RENTAL",
     "listingType":         "USED",
     "usableAreasMin":      40,
-    "rentalTotalPriceMax": 3500,
+    "rentalTotalPriceMax": 4500,
     "rentTotalPrice":      "true",
     "addressCity":         "Rio de Janeiro",
     "addressZone":         "Zona Sul",

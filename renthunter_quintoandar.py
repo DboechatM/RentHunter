@@ -37,11 +37,11 @@ import pandas as pd
 REGIOES = {
     'Rio de Janeiro': {
         'Zona Sul': {
-            'url': 'https://www.quintoandar.com.br/alugar/imovel/zona-sul/de-500-a-4500-reais/apartamento/de-40-a-1000-m2',
+            'url': 'https://www.quintoandar.com.br/alugar/imovel/zona-sul/de-1500-a-4500-reais/apartamento/de-40-a-1000-m2',
             'emoji': '🏖️'
         },
         'Barra da Tijuca': {
-            'url': 'https://www.quintoandar.com.br/alugar/imovel/barra-da-tijuca/de-500-a-4500-reais/apartamento/de-40-a-1000-m2',
+            'url': 'https://www.quintoandar.com.br/alugar/imovel/barra-da-tijuca/de-1500-a-4500-reais/apartamento/de-45-a-1000-m2',
             'emoji': '🏖️'
         }
     },
@@ -456,6 +456,7 @@ def enviar_telegram(df_top10: pd.DataFrame, regiao: str = "Quinto Andar") -> boo
             bairro = row.get('bairro', 'N/A')
             municipio = row.get('regiao', 'N/A')
             url = row.get('url', '#')
+            endereco = row.get('endereco', 'N/A')
             
             # Emoji por ranking
             if ranking == 1:
@@ -470,6 +471,7 @@ def enviar_telegram(df_top10: pd.DataFrame, regiao: str = "Quinto Andar") -> boo
             mensagem += f"<b>{emoji} {ranking}º - Score: {score:.0f}/100</b>\n"
             mensagem += f"💰 R$ {preco_total:,.0f}    📐 {area}m² | {quartos}Q\n"
             mensagem += f"📍 {bairro} - {municipio}\n"
+            mensagem += f"{endereco}\n"
             mensagem += f"<a href='{url}'>Ver imóvel →</a>\n"
             mensagem += "─" * 25 + "\n\n"
         

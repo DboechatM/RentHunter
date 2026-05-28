@@ -22,7 +22,7 @@ import time
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
-
+from dotenv import load_dotenv
 import pandas as pd
 import numpy as np
 import requests
@@ -60,10 +60,10 @@ HEADERS = {
     'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
     'Referer': 'https://www.zapimoveis.com.br/',
     'x-domain': '.zapimoveis.com.br',
-    #'Origin': 'https://www.zapimoveis.com.br',
-    #'Accept-Encoding': 'gzip, deflate',
-    #'DNT': '1',
-    #'Connection': 'keep-alive',
+    'Origin': 'https://www.zapimoveis.com.br',
+    'Accept-Encoding': 'gzip, deflate',
+    'DNT': '1',
+    'Connection': 'keep-alive',
 }
 
 DEFAULT_PARAMS = {
@@ -412,6 +412,7 @@ def save_top10(df: pd.DataFrame) -> None:
 
 def send_telegram(message: str) -> None:
     """Envia mensagem via Telegram Bot API."""
+    load_dotenv()
     token   = os.getenv("TELEGRAM_BOT_TOKEN")
     chat_id = os.getenv("TELEGRAM_CHAT_ID")
     print("TOKEN EXISTS:", bool(os.getenv("TELEGRAM_BOT_TOKEN")))

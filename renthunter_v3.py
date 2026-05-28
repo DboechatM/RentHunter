@@ -27,6 +27,7 @@ import pandas as pd
 import numpy as np
 import requests
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
 
 # ============================================================================
 # CONFIGURAÇÕES GLOBAIS
@@ -53,20 +54,52 @@ logger = logging.getLogger(__name__)
 
 # Headers para evitar bloqueio
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                  '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'application/json, text/plain, */*',
     'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
     'Referer': 'https://www.olx.com.br/',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'DNT': '1',
-    'Connection': 'keep-alive',
-    'Upgrade-Insecure-Requests': '1',
-    'Sec-Fetch-Dest': 'document',
-    'Sec-Fetch-Mode': 'navigate',
-    'Sec-Fetch-Site': 'none',
+    #'Accept-Encoding': 'gzip, deflate, br',
+    #'DNT': '1',
+    #'Connection': 'keep-alive',
+    #'Upgrade-Insecure-Requests': '1',
+    #'Sec-Fetch-Dest': 'document',
+    #'Sec-Fetch-Mode': 'navigate',
+    #'Sec-Fetch-Site': 'none',
     'Cache-Control': 'max-age=0',
 }
 
+from curl_cffi import requests
+
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Referer': 'https://www.olx.com.br/',
+    'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'same-origin',
+    'Sec-Fetch-User': '?1',
+    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+}
+
+# ==========================
+# DEBUG: Teste de bloqueio com curl_cffi
+# ==========================
+#url = "https://www.olx.com.br/pt-BR/imoveis/aluguel/1-quartos/estado-rj/rio-de-janeiro-e-regiao/zona-sul?ps=1500&pe=4000&ss=40&sf=1&o=2"
+
+# Note the impersonate="chrome120" argument
+#response = requests.get(url, headers=HEADERS, impersonate="chrome120")
+
+#print(response.status_code)
+#if response.status_code == 200:
+#    print("Success!")
+    # Proceed with your parsing (BeautifulSoup, etc.)
+#else:
+#    print("Still blocked.")
 
 # ============================================================================
 # UTILITY FUNCTIONS
@@ -207,6 +240,67 @@ def cleanup_old_logs() -> None:
         logger.info(f"Logs cleanup: {len(log_files)} logs")
     except Exception as e:
         logger.error(f"Erro ao limpar logs antigos: {e}")
+
+def send_telegram(message: str) -> None:
+    """Envia mensagem via Telegram Bot API."""
+    load_dotenv()
+    token   = os.getenv("TELEGRAM_BOT_TOKEN")
+    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+    print("TOKEN EXISTS:", bool(os.getenv("TELEGRAM_BOT_TOKEN")))
+    print("CHAT_ID EXISTS:", bool(os.getenv("TELEGRAM_CHAT_ID")))
+    
+    if not token or not chat_id:
+        logger.info("Telegram não configurado, pulando notificação")
+        return
+
+    try:
+        response = requests.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            json={"chat_id": chat_id, "text": message, "parse_mode": "HTML"},
+            timeout=10
+        )
+        if response.status_code == 200:
+            logger.info("Notificação Telegram enviada")
+        else:
+            logger.warning(f"Telegram retornou status {response.status_code}: {response.text[:200]}")
+    except Exception as e:
+        logger.warning(f"Falha ao enviar Telegram: {e}")
+
+
+def build_telegram_message(top10: pd.DataFrame, alerts: List[Dict], log: Dict) -> str:
+    """Monta mensagem de resumo do scan para o Telegram."""
+    hora  = datetime.now().strftime('%d/%m %H:%M')
+    total = log.get('total_encontrados', 0)
+    lines = [
+        f"🏢 <b>RentHunter — Zap Imóveis</b> | {hora}",
+        "",
+        f"📊 {total} imóveis analisados",
+        "",
+        "🏆 <b>Top 5 do dia:</b>",
+    ]
+
+    for _, row in top10.head(5).iterrows():
+        bairro  = row.get('bairro', 'N/A')
+        custo   = row.get('custo_total', 0)
+        area    = row.get('area', 0)
+        score   = int(row.get('score', 0))
+        ranking = int(row.get('ranking', 0))
+        url     = row.get('url', '')
+        lines.append(
+            f"#{ranking} score {score} | {bairro} | R$ {int(custo):,} | {int(area)}m²"
+        )
+        lines.append(f"🔗 <a href='{url}'>Ver imóvel →</a>\n")
+        lines.append("─" * 25 + "\n")
+
+    if alerts:
+        lines.append("")
+        lines.append(f"🔔 <b>{len(alerts)} alerta(s) novo(s):</b>")
+        for a in alerts:
+            tipo = "NOVO" if a['alerta_tipo'] == 'novo' else "MELHORIA"
+            lines.append(f"[{tipo}] #{a['ranking']} score {int(a['score'])} | {a['bairro']} | R$ {int(a['custo_total']):,}")
+            lines.append(f"   🔗 <a href='{a['url']}'>Ver imóvel →</a>\n")
+
+    return "\n".join(lines)
 
 
 # ============================================================================
@@ -563,6 +657,9 @@ def main() -> int:
         logger.info(f"📊 Imóveis: {execution_log['total_encontrados']}")
         logger.info(f"🏆 Top 10: {execution_log['top_filtrados']}")
         logger.info(f"🔔 Alertas: {execution_log['alertas']}")
+        
+        msg = build_telegram_message(top10, alerts, execution_log)
+        send_telegram(msg)
         
         return 0
         

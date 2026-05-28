@@ -22,7 +22,6 @@ import time
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
-from dotenv import load_dotenv
 import pandas as pd
 import numpy as np
 import requests

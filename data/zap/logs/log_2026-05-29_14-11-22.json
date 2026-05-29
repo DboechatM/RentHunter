@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-05-29T14:11:18.698032",
+  "source": "zap",
+  "status": "erro",
+  "total_encontrados": 49,
+  "top_filtrados": 10,
+  "alertas": 0,
+  "tempo_execucao_seg": 3.71,
+  "mensagens": [
+    "Estado carregado com sucesso",
+    "49 imóveis coletados",
+    "Erro: name 'load_dotenv' is not defined"
+  ]
+}

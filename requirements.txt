@@ -10,7 +10,7 @@ requests>=2.31.0
 beautifulsoup4>=4.12.3
 
 # Load environment variables
-dotenv>=1.2.1  
+dotenv>=0.9.9  
 
 # Optional (for future improvements)
 # playwright>=1.30.0  # Para evitar Cloudflare blocks

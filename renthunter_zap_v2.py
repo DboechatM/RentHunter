@@ -411,7 +411,7 @@ def save_top10(df: pd.DataFrame) -> None:
 
 def send_telegram(message: str) -> None:
     """Envia mensagem via Telegram Bot API."""
-    load_dotenv()
+
     token   = os.getenv("TELEGRAM_BOT_TOKEN")
     chat_id = os.getenv("TELEGRAM_CHAT_ID")
     print("TOKEN EXISTS:", bool(os.getenv("TELEGRAM_BOT_TOKEN")))

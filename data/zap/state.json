@@ -844,6 +844,30 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-acesso-24-horas-vidigal-zona-sul-rio-de-janeiro-rj-70m2-id-2889893589/": {
       "first_seen": "2026-05-31T10:45:04.785624",
       "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-churrasqueira-flamengo-zona-sul-rio-de-janeiro-rj-100m2-id-2889972480/": {
+      "first_seen": "2026-05-31T19:04:21.423897",
+      "last_score": 105.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-interfone-gloria-zona-sul-rio-de-janeiro-rj-60m2-id-2889639596/": {
+      "first_seen": "2026-05-31T19:04:21.423897",
+      "last_score": 85.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-ipanema-zona-sul-rio-de-janeiro-rj-94m2-id-2889972086/": {
+      "first_seen": "2026-05-31T19:04:21.423897",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-churrasqueira-laranjeiras-zona-sul-rio-de-janeiro-rj-108m2-id-2889972085/": {
+      "first_seen": "2026-05-31T19:04:21.423897",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-50m2-id-2889972084/": {
+      "first_seen": "2026-05-31T19:04:21.423897",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-60m2-id-2889957478/": {
+      "first_seen": "2026-05-31T19:04:21.423897",
+      "last_score": 40.0
     }
   }
 }

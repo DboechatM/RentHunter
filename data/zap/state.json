@@ -972,6 +972,38 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-42m2-id-2890429191/": {
       "first_seen": "2026-06-02T20:05:07.562743",
       "last_score": 30.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-45m2-id-2889140600/": {
+      "first_seen": "2026-06-03T13:49:29.029669",
+      "last_score": 65.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-gloria-zona-sul-rio-de-janeiro-rj-64m2-id-2890405181/": {
+      "first_seen": "2026-06-03T13:49:29.029669",
+      "last_score": 65.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-laranjeiras-zona-sul-rio-de-janeiro-rj-45m2-id-2890545573/": {
+      "first_seen": "2026-06-03T13:49:29.029669",
+      "last_score": 60.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-flamengo-zona-sul-rio-de-janeiro-rj-42m2-id-2890497428/": {
+      "first_seen": "2026-06-03T13:49:29.029669",
+      "last_score": 60.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-elevador-leblon-zona-sul-rio-de-janeiro-rj-70m2-id-2890457894/": {
+      "first_seen": "2026-06-03T13:49:29.029669",
+      "last_score": 50.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-50m2-id-2886586017/": {
+      "first_seen": "2026-06-03T13:49:29.029669",
+      "last_score": 50.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-flamengo-zona-sul-rio-de-janeiro-rj-60m2-id-2886166819/": {
+      "first_seen": "2026-06-03T13:49:29.029669",
+      "last_score": 50.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-hall-de-entrada-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2890480612/": {
+      "first_seen": "2026-06-03T13:49:29.029669",
+      "last_score": 35.0
     }
   }
 }

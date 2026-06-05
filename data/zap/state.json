@@ -1096,6 +1096,34 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-quitinete-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-42m2-id-2890366785/": {
       "first_seen": "2026-06-04T19:24:44.393068",
       "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-gloria-zona-sul-rio-de-janeiro-rj-42m2-id-2890798593/": {
+      "first_seen": "2026-06-05T11:51:32.561228",
+      "last_score": 90.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-piso-de-madeira-botafogo-zona-sul-rio-de-janeiro-rj-42m2-id-2857243959/": {
+      "first_seen": "2026-06-05T11:51:32.561228",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-gloria-zona-sul-rio-de-janeiro-rj-64m2-id-2890160988/": {
+      "first_seen": "2026-06-05T11:51:32.561228",
+      "last_score": 65.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-cozinha-laranjeiras-zona-sul-rio-de-janeiro-rj-80m2-id-2888823716/": {
+      "first_seen": "2026-06-05T11:51:32.561228",
+      "last_score": 50.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-cobertura-1-quarto-ipanema-zona-sul-rio-de-janeiro-rj-55m2-id-2789369226/": {
+      "first_seen": "2026-06-05T11:51:32.561228",
+      "last_score": 50.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2881039076/": {
+      "first_seen": "2026-06-05T11:51:32.561228",
+      "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2871807087/": {
+      "first_seen": "2026-06-05T11:51:32.561228",
+      "last_score": 40.0
     }
   }
 }

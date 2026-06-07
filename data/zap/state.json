@@ -1224,6 +1224,18 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-jardim-botanico-zona-sul-rio-de-janeiro-rj-65m2-id-2891175983/": {
       "first_seen": "2026-06-06T19:08:47.803673",
       "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-45m2-id-2891259876/": {
+      "first_seen": "2026-06-07T10:52:41.815032",
+      "last_score": 95.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-area-de-servico-flamengo-zona-sul-rio-de-janeiro-rj-60m2-id-2891217373/": {
+      "first_seen": "2026-06-07T10:52:41.815032",
+      "last_score": 85.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-interfone-copacabana-zona-sul-rio-de-janeiro-rj-46m2-id-2883450353/": {
+      "first_seen": "2026-06-07T10:52:41.815032",
+      "last_score": 35.0
     }
   }
 }

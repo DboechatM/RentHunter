@@ -1396,6 +1396,26 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-playground-copacabana-zona-sul-rio-de-janeiro-rj-67m2-id-2891737611/": {
       "first_seen": "2026-06-10T12:35:22.553329",
       "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-acesso-24-horas-gloria-zona-sul-rio-de-janeiro-rj-60m2-id-2891835193/": {
+      "first_seen": "2026-06-10T19:53:45.800351",
+      "last_score": 85.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-42m2-id-2892054583/": {
+      "first_seen": "2026-06-10T19:53:45.800351",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-janelas-grandes-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2891710321/": {
+      "first_seen": "2026-06-10T19:53:45.800351",
+      "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-acesso-24-horas-copacabana-zona-sul-rio-de-janeiro-rj-55m2-id-2892007478/": {
+      "first_seen": "2026-06-10T19:53:45.800351",
+      "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-65m2-id-2892001214/": {
+      "first_seen": "2026-06-10T19:53:45.800351",
+      "last_score": 40.0
     }
   }
 }

@@ -1415,7 +1415,35 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-65m2-id-2892001214/": {
       "first_seen": "2026-06-10T19:53:45.800351",
+      "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-blindex-botafogo-zona-sul-rio-de-janeiro-rj-42m2-id-2890996895/": {
+      "first_seen": "2026-06-11T13:01:27.346915",
+      "last_score": 65.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-armario-de-cozinha-botafogo-zona-sul-rio-de-janeiro-rj-51m2-id-2891709613/": {
+      "first_seen": "2026-06-11T13:01:27.346915",
+      "last_score": 60.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-acesso-24-horas-copacabana-zona-sul-rio-de-janeiro-rj-45m2-id-2892063180/": {
+      "first_seen": "2026-06-11T13:01:27.346915",
+      "last_score": 55.0
+    },
+    "https://www.zapimoveis.com.br/imovel/venda-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-48m2-id-2890405726/": {
+      "first_seen": "2026-06-11T13:01:27.346915",
+      "last_score": 55.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-acesso-24-horas-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2875416035/": {
+      "first_seen": "2026-06-11T13:01:27.346915",
+      "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-79m2-id-2813957895/": {
+      "first_seen": "2026-06-11T13:01:27.346915",
       "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-44m2-id-2892176042/": {
+      "first_seen": "2026-06-11T13:01:27.346915",
+      "last_score": 30.0
     }
   }
 }

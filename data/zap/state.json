@@ -1888,6 +1888,18 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-salao-de-festas-laranjeiras-zona-sul-rio-de-janeiro-rj-72m2-id-2893533882/": {
       "first_seen": "2026-06-20T11:03:44.642285",
       "last_score": 60.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-58m2-id-2894119645/": {
+      "first_seen": "2026-06-20T19:14:58.558986",
+      "last_score": 90.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-laranjeiras-zona-sul-rio-de-janeiro-rj-50m2-id-2894006982/": {
+      "first_seen": "2026-06-20T19:14:58.558986",
+      "last_score": 80.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-playground-laranjeiras-zona-sul-rio-de-janeiro-rj-71m2-id-2893533882/": {
+      "first_seen": "2026-06-20T19:14:58.558986",
+      "last_score": 60.0
     }
   }
 }

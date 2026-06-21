@@ -1924,6 +1924,46 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-gavea-zona-sul-rio-de-janeiro-rj-50m2-id-2894202280/": {
       "first_seen": "2026-06-21T11:10:53.109218",
       "last_score": 50.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-flamengo-zona-sul-rio-de-janeiro-rj-71m2-id-2894252381/": {
+      "first_seen": "2026-06-21T19:18:31.406917",
+      "last_score": 105.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-botafogo-zona-sul-rio-de-janeiro-rj-71m2-id-2894252380/": {
+      "first_seen": "2026-06-21T19:18:31.406917",
+      "last_score": 100.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-58m2-id-2894252474/": {
+      "first_seen": "2026-06-21T19:18:31.406917",
+      "last_score": 90.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-83m2-id-2894263705/": {
+      "first_seen": "2026-06-21T19:18:31.406917",
+      "last_score": 90.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-deposito-privativo-gloria-zona-sul-rio-de-janeiro-rj-61m2-id-2893532802/": {
+      "first_seen": "2026-06-21T19:18:31.406917",
+      "last_score": 85.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-laranjeiras-zona-sul-rio-de-janeiro-rj-51m2-id-2894006982/": {
+      "first_seen": "2026-06-21T19:18:31.406917",
+      "last_score": 80.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-99m2-id-2894250701/": {
+      "first_seen": "2026-06-21T19:18:31.406917",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-ipanema-zona-sul-rio-de-janeiro-rj-48m2-id-2894261233/": {
+      "first_seen": "2026-06-21T19:18:31.406917",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-elevador-laranjeiras-zona-sul-rio-de-janeiro-rj-71m2-id-2893533882/": {
+      "first_seen": "2026-06-21T19:18:31.406917",
+      "last_score": 60.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-ipanema-zona-sul-rio-de-janeiro-rj-45m2-id-2894252277/": {
+      "first_seen": "2026-06-21T19:18:31.406917",
+      "last_score": 55.0
     }
   }
 }

@@ -2124,6 +2124,38 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-area-de-servico-botafogo-zona-sul-rio-de-janeiro-rj-50m2-id-2894983811/": {
       "first_seen": "2026-06-25T11:33:26.178094",
       "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-area-de-servico-gloria-zona-sul-rio-de-janeiro-rj-47m2-id-2895075577/": {
+      "first_seen": "2026-06-25T19:24:34.920187",
+      "last_score": 95.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-58m2-id-2895081409/": {
+      "first_seen": "2026-06-25T19:24:34.920187",
+      "last_score": 90.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-flamengo-zona-sul-rio-de-janeiro-rj-60m2-id-2895098390/": {
+      "first_seen": "2026-06-25T19:24:34.920187",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-acesso-24-horas-botafogo-zona-sul-rio-de-janeiro-rj-63m2-id-2895082993/": {
+      "first_seen": "2026-06-25T19:24:34.920187",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-ipanema-zona-sul-rio-de-janeiro-rj-48m2-id-2895082703/": {
+      "first_seen": "2026-06-25T19:24:34.920187",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-piscina-botafogo-zona-sul-rio-de-janeiro-rj-44m2-id-2895012387/": {
+      "first_seen": "2026-06-25T19:24:34.920187",
+      "last_score": 55.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-blindex-copacabana-zona-sul-rio-de-janeiro-rj-50m2-id-2894709978/": {
+      "first_seen": "2026-06-25T19:24:34.920187",
+      "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-copacabana-zona-sul-rio-de-janeiro-rj-55m2-id-2892007478/": {
+      "first_seen": "2026-06-25T19:24:34.920187",
+      "last_score": 40.0
     }
   }
 }

@@ -37,11 +37,11 @@ import pandas as pd
 REGIOES = {
     'Rio de Janeiro': {
         'Zona Sul': {
-            'url': 'https://www.quintoandar.com.br/alugar/imovel/zona-sul/de-1500-a-4500-reais/apartamento/de-40-a-1000-m2',
+            'url': 'https://www.quintoandar.com.br/alugar/imovel/zona-sul/de-1500-a-5000-reais/apartamento/de-40-a-1000-m2',
             'emoji': '🏖️'
         },
         'Barra da Tijuca': {
-            'url': 'https://www.quintoandar.com.br/alugar/imovel/barra-da-tijuca/de-1500-a-4500-reais/apartamento/de-45-a-1000-m2',
+            'url': 'https://www.quintoandar.com.br/alugar/imovel/barra-da-tijuca/de-2500-a-5000-reais/apartamento/de-45-a-1000-m2',
             'emoji': '🏖️'
         }
     },

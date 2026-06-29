@@ -444,10 +444,10 @@ def build_telegram_message(top10: pd.DataFrame, alerts: List[Dict], log: Dict) -
         "",
         f"📊 {total} imóveis analisados",
         "",
-        "🏆 <b>Top 5 do dia:</b>",
+        "🏆 <b>Top 10 do dia:</b>",
     ]
 
-    for _, row in top10.head(5).iterrows():
+    for _, row in top10.head(10).iterrows():
         bairro  = row.get('bairro', 'N/A')
         custo   = row.get('custo_total', 0)
         area    = row.get('area', 0)

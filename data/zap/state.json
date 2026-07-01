@@ -1631,7 +1631,7 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-varanda-botafogo-zona-sul-rio-de-janeiro-rj-64m2-id-2892495830/": {
       "first_seen": "2026-06-15T14:14:27.167077",
-      "last_score": 75.0
+      "last_score": 80.0
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-botafogo-zona-sul-rio-de-janeiro-rj-50m2-id-2892452757/": {
       "first_seen": "2026-06-15T14:14:27.167077",
@@ -2384,6 +2384,22 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-interfone-copacabana-zona-sul-rio-de-janeiro-rj-50m2-id-2894709978/": {
       "first_seen": "2026-06-30T19:18:19.860137",
       "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-flamengo-zona-sul-rio-de-janeiro-rj-45m2-id-2896209485/": {
+      "first_seen": "2026-07-01T11:35:32.906775",
+      "last_score": 105.0
+    },
+    "https://www.zapimoveis.com.br/imovel/venda-apartamento-2-quartos-gloria-zona-sul-rio-de-janeiro-rj-50m2-id-2896019808/": {
+      "first_seen": "2026-07-01T11:35:32.906775",
+      "last_score": 100.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-laranjeiras-zona-sul-rio-de-janeiro-rj-46m2-id-2896195089/": {
+      "first_seen": "2026-07-01T11:35:32.906775",
+      "last_score": 60.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-elevador-copacabana-zona-sul-rio-de-janeiro-rj-79m2-id-2896088793/": {
+      "first_seen": "2026-07-01T11:35:32.906775",
+      "last_score": 50.0
     }
   }
 }

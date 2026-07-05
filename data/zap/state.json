@@ -1483,7 +1483,7 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-acesso-24-horas-botafogo-zona-sul-rio-de-janeiro-rj-51m2-id-2891709613/": {
       "first_seen": "2026-06-12T11:59:06.641510",
-      "last_score": 60.0
+      "last_score": 65.0
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-botafogo-zona-sul-rio-de-janeiro-rj-40m2-id-2892406992/": {
       "first_seen": "2026-06-12T11:59:06.641510",
@@ -2520,6 +2520,10 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-copacabana-zona-sul-rio-de-janeiro-rj-45m2-id-2892063180/": {
       "first_seen": "2026-07-04T19:02:58.822908",
       "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-acesso-24-horas-gloria-zona-sul-rio-de-janeiro-rj-70m2-id-2896910520/": {
+      "first_seen": "2026-07-05T10:38:53.680402",
+      "last_score": 80.0
     }
   }
 }

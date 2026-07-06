@@ -839,7 +839,7 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-botafogo-zona-sul-rio-de-janeiro-rj-62m2-id-2889885577/": {
       "first_seen": "2026-05-31T10:45:04.785624",
-      "last_score": 45.0
+      "last_score": 50.0
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-acesso-24-horas-vidigal-zona-sul-rio-de-janeiro-rj-70m2-id-2889893589/": {
       "first_seen": "2026-05-31T10:45:04.785624",
@@ -2552,6 +2552,10 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-copacabana-zona-sul-rio-de-janeiro-rj-58m2-id-2886088692/": {
       "first_seen": "2026-07-05T19:07:09.784271",
       "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-70m2-id-2897218875/": {
+      "first_seen": "2026-07-06T12:32:38.407157",
+      "last_score": 45.0
     }
   }
 }

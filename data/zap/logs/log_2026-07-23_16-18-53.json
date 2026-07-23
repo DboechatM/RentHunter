@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-07-23T16:18:49.356184",
+  "source": "zap",
+  "status": "erro",
+  "total_encontrados": 71,
+  "top_filtrados": 0,
+  "alertas": 0,
+  "tempo_execucao_seg": 3.88,
+  "mensagens": [
+    "Estado carregado com sucesso",
+    "71 imóveis coletados",
+    "Erro: 'int' object is not subscriptable"
+  ]
+}

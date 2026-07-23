@@ -458,8 +458,9 @@ def build_telegram_message(top10: pd.DataFrame, alerts: List[Dict], log: Dict) -
         score   = int(row.get('score', 0))
         ranking = int(row.get('ranking', 0))
         url     = row.get('url', '')
+        n_quartos = int(row.get('quartos', 0))
         lines.append(
-            f"#{ranking} score {score} | {bairro} | R$ {int(custo):,} | {int(area)}m²"
+            f"#{ranking} score {score} | {bairro} | R$ {int(custo):,} | {int(area)}m² | {n_quartos}Q"
         )
         lines.append(f"🔗 <a href='{url}'>Ver imóvel →</a>\n")
         lines.append("─" * 25 + "\n")

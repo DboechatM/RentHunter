@@ -310,6 +310,10 @@ def calcular_score(df: pd.DataFrame) -> pd.DataFrame:
     df["garagem"]    = pd.to_numeric(df.get("garagem", 0),     errors="coerce").fillna(0)
     df["area"]       = pd.to_numeric(df.get("area", 0),        errors="coerce").fillna(0)
 
+    for row, col in df.iterrows():
+        if row["iptu"] <= 500: 
+            row["iptu"] = row["iptu"]/12
+
     df["custo_total"] = df["preco"] + df["condominio"] + df["iptu"]
 
     score = np.zeros(len(df))

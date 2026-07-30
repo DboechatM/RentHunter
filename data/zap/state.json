@@ -3556,6 +3556,18 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-copacabana-zona-sul-rio-de-janeiro-rj-44m2-id-2902050799/": {
       "first_seen": "2026-07-29T19:04:59.344279",
       "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-catete-zona-sul-rio-de-janeiro-rj-42m2-id-2902196603/": {
+      "first_seen": "2026-07-30T11:00:25.398096",
+      "last_score": 80.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-40m2-id-2901128804/": {
+      "first_seen": "2026-07-30T11:00:25.398096",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-area-de-servico-copacabana-zona-sul-rio-de-janeiro-rj-50m2-id-2899344689/": {
+      "first_seen": "2026-07-30T11:00:25.398096",
+      "last_score": 40.0
     }
   }
 }

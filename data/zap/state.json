@@ -3668,6 +3668,10 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-armario-de-cozinha-copacabana-zona-sul-rio-de-janeiro-rj-49m2-id-2902670027/": {
       "first_seen": "2026-08-01T10:19:46.091797",
       "last_score": 30.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-50m2-id-2902520571/": {
+      "first_seen": "2026-08-01T19:00:13.043110",
+      "last_score": 70.0
     }
   }
 }

@@ -3724,6 +3724,14 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-leme-zona-sul-rio-de-janeiro-rj-40m2-id-2900256386/": {
       "first_seen": "2026-08-02T18:59:53.118562",
       "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/venda-apartamento-1-quarto-gloria-zona-sul-rio-de-janeiro-rj-41m2-id-2883239876/": {
+      "first_seen": "2026-08-03T11:37:57.529581",
+      "last_score": 80.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-copacabana-zona-sul-rio-de-janeiro-rj-49m2-id-2902670027/": {
+      "first_seen": "2026-08-03T11:37:57.529581",
+      "last_score": 30.0
     }
   }
 }

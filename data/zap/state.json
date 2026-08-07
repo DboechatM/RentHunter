@@ -3828,6 +3828,22 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-janelas-grandes-gavea-zona-sul-rio-de-janeiro-rj-47m2-id-2902331927/": {
       "first_seen": "2026-08-06T11:07:56.139048",
       "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-acesso-24-horas-flamengo-zona-sul-rio-de-janeiro-rj-40m2-id-2903790202/": {
+      "first_seen": "2026-08-06T22:01:16.812415",
+      "last_score": 85.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2903116762/": {
+      "first_seen": "2026-08-06T22:01:16.812415",
+      "last_score": 50.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-armario-embutido-copacabana-zona-sul-rio-de-janeiro-rj-41m2-id-2903827194/": {
+      "first_seen": "2026-08-06T22:01:16.812415",
+      "last_score": 50.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-copacabana-zona-sul-rio-de-janeiro-rj-50m2-id-2903400494/": {
+      "first_seen": "2026-08-06T22:01:16.812415",
+      "last_score": 40.0
     }
   }
 }

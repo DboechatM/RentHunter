@@ -3848,6 +3848,42 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-interfone-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2903916247/": {
       "first_seen": "2026-08-07T10:02:03.474388",
       "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-flamengo-zona-sul-rio-de-janeiro-rj-71m2-id-2904043795/": {
+      "first_seen": "2026-08-07T18:45:01.535857",
+      "last_score": 105.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-58m2-id-2904042032/": {
+      "first_seen": "2026-08-07T18:45:01.535857",
+      "last_score": 90.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-99m2-id-2904043599/": {
+      "first_seen": "2026-08-07T18:45:01.535857",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-40m2-id-2903980903/": {
+      "first_seen": "2026-08-07T18:45:01.535857",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-ipanema-zona-sul-rio-de-janeiro-rj-48m2-id-2904044593/": {
+      "first_seen": "2026-08-07T18:45:01.535857",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-playground-laranjeiras-zona-sul-rio-de-janeiro-rj-53m2-id-2903771802/": {
+      "first_seen": "2026-08-07T18:45:01.535857",
+      "last_score": 65.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-armario-embutido-copacabana-zona-sul-rio-de-janeiro-rj-42m2-id-2903827194/": {
+      "first_seen": "2026-08-07T18:45:01.535857",
+      "last_score": 50.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-acesso-24-horas-leme-zona-sul-rio-de-janeiro-rj-40m2-id-2900256386/": {
+      "first_seen": "2026-08-07T18:45:01.535857",
+      "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-leme-zona-sul-rio-de-janeiro-rj-40m2-id-2891529913/": {
+      "first_seen": "2026-08-07T18:45:01.535857",
+      "last_score": 35.0
     }
   }
 }

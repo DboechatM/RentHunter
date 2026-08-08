@@ -2167,7 +2167,7 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-laranjeiras-zona-sul-rio-de-janeiro-rj-55m2-id-2894787319/": {
       "first_seen": "2026-06-26T11:24:34.583975",
-      "last_score": 65.0
+      "last_score": 75.0
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-interfone-copacabana-zona-sul-rio-de-janeiro-rj-67m2-id-2895146333/": {
       "first_seen": "2026-06-26T11:24:34.583975",
@@ -3884,6 +3884,18 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-leme-zona-sul-rio-de-janeiro-rj-40m2-id-2891529913/": {
       "first_seen": "2026-08-07T18:45:01.535857",
       "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-gloria-zona-sul-rio-de-janeiro-rj-50m2-id-2904101206/": {
+      "first_seen": "2026-08-08T09:46:44.035797",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-cosme-velho-zona-sul-rio-de-janeiro-rj-68m2-id-2903802521/": {
+      "first_seen": "2026-08-08T09:46:44.035797",
+      "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-acesso-24-horas-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2903916247/": {
+      "first_seen": "2026-08-08T09:46:44.035797",
+      "last_score": 45.0
     }
   }
 }

@@ -2355,7 +2355,7 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-armario-de-cozinha-laranjeiras-zona-sul-rio-de-janeiro-rj-55m2-id-2894787319/": {
       "first_seen": "2026-06-30T11:18:30.229692",
-      "last_score": 65.0
+      "last_score": 75.0
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-botafogo-zona-sul-rio-de-janeiro-rj-42m2-id-2713698499/": {
       "first_seen": "2026-06-30T11:18:30.229692",
@@ -3663,7 +3663,7 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-urca-zona-sul-rio-de-janeiro-rj-50m2-id-2902605897/": {
       "first_seen": "2026-08-01T10:19:46.091797",
-      "last_score": 35.0
+      "last_score": 40.0
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-armario-de-cozinha-copacabana-zona-sul-rio-de-janeiro-rj-49m2-id-2902670027/": {
       "first_seen": "2026-08-01T10:19:46.091797",
@@ -3964,6 +3964,22 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-copacabana-zona-sul-rio-de-janeiro-rj-42m2-id-2903827194/": {
       "first_seen": "2026-08-10T18:48:33.262579",
       "last_score": 50.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-botafogo-zona-sul-rio-de-janeiro-rj-73m2-id-2902411493/": {
+      "first_seen": "2026-08-11T10:03:31.832518",
+      "last_score": 90.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-acesso-24-horas-copacabana-zona-sul-rio-de-janeiro-rj-50m2-id-2901990261/": {
+      "first_seen": "2026-08-11T10:03:31.832518",
+      "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-area-de-servico-copacabana-zona-sul-rio-de-janeiro-rj-50m2-id-2903400494/": {
+      "first_seen": "2026-08-11T10:03:31.832518",
+      "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/venda-apartamento-1-quarto-com-elevador-copacabana-zona-sul-rio-de-janeiro-rj-43m2-id-2899785277/": {
+      "first_seen": "2026-08-11T10:03:31.832518",
+      "last_score": 35.0
     }
   }
 }

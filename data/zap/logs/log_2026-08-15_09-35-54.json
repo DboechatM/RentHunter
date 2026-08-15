@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-08-15T09:35:50.698342",
+  "source": "zap",
+  "status": "sucesso",
+  "total_encontrados": 70,
+  "top_filtrados": 10,
+  "alertas": 1,
+  "tempo_execucao_seg": 4.01,
+  "mensagens": [
+    "Estado carregado com sucesso",
+    "70 imóveis coletados"
+  ]
+}

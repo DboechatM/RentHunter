@@ -4184,6 +4184,18 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-ipanema-zona-sul-rio-de-janeiro-rj-48m2-id-2905722736/": {
       "first_seen": "2026-08-15T18:26:01.297293",
       "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-copacabana-zona-sul-rio-de-janeiro-rj-50m2-id-2905781428/": {
+      "first_seen": "2026-08-16T09:37:28.272316",
+      "last_score": 50.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-varanda-copacabana-zona-sul-rio-de-janeiro-rj-50m2-id-2903400494/": {
+      "first_seen": "2026-08-16T09:37:28.272316",
+      "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2903916247/": {
+      "first_seen": "2026-08-16T09:37:28.272316",
+      "last_score": 45.0
     }
   }
 }

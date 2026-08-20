@@ -4316,6 +4316,38 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-45m2-id-2906063245/": {
       "first_seen": "2026-08-20T09:48:19.015138",
       "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-botafogo-zona-sul-rio-de-janeiro-rj-45m2-id-2847153813/": {
+      "first_seen": "2026-08-20T18:32:59.125868",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-laranjeiras-zona-sul-rio-de-janeiro-rj-40m2-id-2906791023/": {
+      "first_seen": "2026-08-20T18:32:59.125868",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-42m2-id-2906746152/": {
+      "first_seen": "2026-08-20T18:32:59.125868",
+      "last_score": 55.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-janelas-de-aluminio-copacabana-zona-sul-rio-de-janeiro-rj-55m2-id-2903575101/": {
+      "first_seen": "2026-08-20T18:32:59.125868",
+      "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-janelas-de-aluminio-copacabana-zona-sul-rio-de-janeiro-rj-45m2-id-2906063245/": {
+      "first_seen": "2026-08-20T18:32:59.125868",
+      "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-seguranca-interna-flamengo-zona-sul-rio-de-janeiro-rj-46m2-id-2906323439/": {
+      "first_seen": "2026-08-20T18:32:59.125868",
+      "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-botafogo-zona-sul-rio-de-janeiro-rj-49m2-id-2906591415/": {
+      "first_seen": "2026-08-20T18:32:59.125868",
+      "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-copacabana-zona-sul-rio-de-janeiro-rj-60m2-id-2903565383/": {
+      "first_seen": "2026-08-20T18:32:59.125868",
+      "last_score": 35.0
     }
   }
 }

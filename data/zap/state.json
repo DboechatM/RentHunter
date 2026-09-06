@@ -5096,6 +5096,22 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-area-de-servico-flamengo-zona-sul-rio-de-janeiro-rj-65m2-id-2910004142/": {
       "first_seen": "2026-09-05T19:44:05.034643",
       "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-botafogo-zona-sul-rio-de-janeiro-rj-71m2-id-2910200927/": {
+      "first_seen": "2026-09-06T12:00:21.199202",
+      "last_score": 100.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-quitinete-1-quarto-com-area-de-servico-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2908322918/": {
+      "first_seen": "2026-09-06T12:00:21.199202",
+      "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-interfone-copacabana-zona-sul-rio-de-janeiro-rj-44m2-id-2909186816/": {
+      "first_seen": "2026-09-06T12:00:21.199202",
+      "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-area-de-servico-flamengo-zona-sul-rio-de-janeiro-rj-46m2-id-2906323439/": {
+      "first_seen": "2026-09-06T12:00:21.199202",
+      "last_score": 35.0
     }
   }
 }

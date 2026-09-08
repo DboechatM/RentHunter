@@ -4919,7 +4919,7 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-copacabana-zona-sul-rio-de-janeiro-rj-44m2-id-2909186816/": {
       "first_seen": "2026-09-01T13:08:33.183423",
-      "last_score": 45.0
+      "last_score": 35.0
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-infraestrutura-internet-gloria-zona-sul-rio-de-janeiro-rj-42m2-id-2908026831/": {
       "first_seen": "2026-09-01T20:12:06.822327",
@@ -5148,6 +5148,10 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-flamengo-zona-sul-rio-de-janeiro-rj-65m2-id-2910004142/": {
       "first_seen": "2026-09-07T20:22:04.151724",
       "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-60m2-id-2910606916/": {
+      "first_seen": "2026-09-08T13:05:15.391094",
+      "last_score": 50.0
     }
   }
 }

@@ -4979,7 +4979,7 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-43m2-id-2909545245/": {
       "first_seen": "2026-09-02T20:11:49.492031",
-      "last_score": 45.0
+      "last_score": 35.0
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-45m2-id-2909654225/": {
       "first_seen": "2026-09-03T12:52:29.259533",
@@ -5176,6 +5176,14 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-interfone-ipanema-zona-sul-rio-de-janeiro-rj-41m2-id-2910784267/": {
       "first_seen": "2026-09-09T13:00:11.197583",
       "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-acesso-24-horas-catete-zona-sul-rio-de-janeiro-rj-48m2-id-2910881826/": {
+      "first_seen": "2026-09-09T20:06:18.369974",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-catete-zona-sul-rio-de-janeiro-rj-43m2-id-2910872427/": {
+      "first_seen": "2026-09-09T20:06:18.369974",
+      "last_score": 60.0
     }
   }
 }

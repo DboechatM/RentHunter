@@ -5003,7 +5003,7 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-quitinete-1-quarto-com-cozinha-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2909613917/": {
       "first_seen": "2026-09-03T12:52:29.259533",
-      "last_score": 35.0
+      "last_score": 40.0
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-copacabana-zona-sul-rio-de-janeiro-rj-44m2-id-2909186816/": {
       "first_seen": "2026-09-03T12:52:29.259533",
@@ -5472,6 +5472,18 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-lavanderia-coletiva-urca-zona-sul-rio-de-janeiro-rj-43m2-id-2911587538/": {
       "first_seen": "2026-09-18T20:08:43.293887",
       "last_score": 30.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-ar-condicionado-flamengo-zona-sul-rio-de-janeiro-rj-40m2-id-2912285922/": {
+      "first_seen": "2026-09-19T12:27:19.730417",
+      "last_score": 85.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-seguranca-interna-gloria-zona-sul-rio-de-janeiro-rj-80m2-id-2912480881/": {
+      "first_seen": "2026-09-19T12:27:19.730417",
+      "last_score": 80.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-botafogo-zona-sul-rio-de-janeiro-rj-43m2-id-2908080714/": {
+      "first_seen": "2026-09-19T12:27:19.730417",
+      "last_score": 75.0
     }
   }
 }

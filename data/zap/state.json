@@ -5512,6 +5512,26 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-urca-zona-sul-rio-de-janeiro-rj-44m2-id-2911587538/": {
       "first_seen": "2026-09-20T12:32:29.906707",
       "last_score": 30.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-flamengo-zona-sul-rio-de-janeiro-rj-71m2-id-2913239332/": {
+      "first_seen": "2026-09-20T20:06:10.978484",
+      "last_score": 105.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-botafogo-zona-sul-rio-de-janeiro-rj-71m2-id-2913239615/": {
+      "first_seen": "2026-09-20T20:06:10.978484",
+      "last_score": 100.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-45m2-id-2897313981/": {
+      "first_seen": "2026-09-20T20:06:10.978484",
+      "last_score": 95.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-99m2-id-2913239331/": {
+      "first_seen": "2026-09-20T20:06:10.978484",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-ipanema-zona-sul-rio-de-janeiro-rj-45m2-id-2913237233/": {
+      "first_seen": "2026-09-20T20:06:10.978484",
+      "last_score": 55.0
     }
   }
 }

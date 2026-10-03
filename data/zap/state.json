@@ -5896,6 +5896,14 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-41m2-id-2909805784/": {
       "first_seen": "2026-10-03T12:48:01.156273",
       "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-botafogo-zona-sul-rio-de-janeiro-rj-71m2-id-2915703355/": {
+      "first_seen": "2026-10-03T20:41:17.815081",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-armario-de-cozinha-copacabana-zona-sul-rio-de-janeiro-rj-45m2-id-2915398266/": {
+      "first_seen": "2026-10-03T20:41:17.815081",
+      "last_score": 45.0
     }
   }
 }

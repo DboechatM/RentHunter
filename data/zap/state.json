@@ -5920,6 +5920,14 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-copacabana-zona-sul-rio-de-janeiro-rj-47m2-id-2916028235/": {
       "first_seen": "2026-10-05T22:42:15.100058",
       "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-casa-de-vila-2-quartos-botafogo-zona-sul-rio-de-janeiro-rj-114m2-id-2916152229/": {
+      "first_seen": "2026-10-06T14:59:22.181290",
+      "last_score": 65.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-armario-embutido-botafogo-zona-sul-rio-de-janeiro-rj-48m2-id-2802010042/": {
+      "first_seen": "2026-10-06T14:59:22.181290",
+      "last_score": 35.0
     }
   }
 }

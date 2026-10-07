@@ -4487,7 +4487,7 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-copacabana-zona-sul-rio-de-janeiro-rj-43m2-id-2899785277/": {
       "first_seen": "2026-08-23T09:38:14.540274",
-      "last_score": 35.0
+      "last_score": 45.0
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2907038618/": {
       "first_seen": "2026-08-23T09:38:14.540274",
@@ -5979,6 +5979,22 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-botafogo-zona-sul-rio-de-janeiro-rj-41m2-id-2915241441/": {
       "first_seen": "2026-10-06T21:31:00.682840",
+      "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-conjunto-comercial-sala-2-quartos-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2916320639/": {
+      "first_seen": "2026-10-07T15:30:02.347200",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-hall-de-servico-independente-botafogo-zona-sul-rio-de-janeiro-rj-44m2-id-2910860320/": {
+      "first_seen": "2026-10-07T15:30:02.347200",
+      "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-ipanema-zona-sul-rio-de-janeiro-rj-40m2-id-2914245110/": {
+      "first_seen": "2026-10-07T15:30:02.347200",
+      "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2911370734/": {
+      "first_seen": "2026-10-07T15:30:02.347200",
       "last_score": 35.0
     }
   }

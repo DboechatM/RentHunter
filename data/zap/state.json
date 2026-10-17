@@ -6352,6 +6352,26 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-laranjeiras-zona-sul-rio-de-janeiro-rj-52m2-id-2917688554/": {
       "first_seen": "2026-10-17T12:02:41.947424",
       "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-flamengo-zona-sul-rio-de-janeiro-rj-71m2-id-2917996968/": {
+      "first_seen": "2026-10-17T19:58:40.168537",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-botafogo-zona-sul-rio-de-janeiro-rj-71m2-id-2917999236/": {
+      "first_seen": "2026-10-17T19:58:40.168537",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-58m2-id-2917996971/": {
+      "first_seen": "2026-10-17T19:58:40.168537",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-ipanema-zona-sul-rio-de-janeiro-rj-45m2-id-2917996866/": {
+      "first_seen": "2026-10-17T19:58:40.168537",
+      "last_score": 55.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-interfone-flamengo-zona-sul-rio-de-janeiro-rj-49m2-id-2917926144/": {
+      "first_seen": "2026-10-17T19:58:40.168537",
+      "last_score": 55.0
     }
   }
 }

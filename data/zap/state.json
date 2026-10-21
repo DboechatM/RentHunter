@@ -6476,6 +6476,18 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-45m2-id-2918527902/": {
       "first_seen": "2026-10-20T20:43:00.015451",
       "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-conjunto-comercial-sala-1-quarto-com-interfone-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2909254244/": {
+      "first_seen": "2026-10-21T13:42:06.346078",
+      "last_score": 65.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-piscina-humaita-zona-sul-rio-de-janeiro-rj-66m2-id-2918589383/": {
+      "first_seen": "2026-10-21T13:42:06.346078",
+      "last_score": 60.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-hall-de-entrada-copacabana-zona-sul-rio-de-janeiro-rj-46m2-id-2918626334/": {
+      "first_seen": "2026-10-21T13:42:06.346078",
+      "last_score": 45.0
     }
   }
 }

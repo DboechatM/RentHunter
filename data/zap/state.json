@@ -6548,6 +6548,26 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-54m2-id-2918948658/": {
       "first_seen": "2026-10-23T13:33:19.338638",
       "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-flamengo-zona-sul-rio-de-janeiro-rj-71m2-id-2919013279/": {
+      "first_seen": "2026-10-23T20:47:54.256022",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-botafogo-zona-sul-rio-de-janeiro-rj-71m2-id-2919012290/": {
+      "first_seen": "2026-10-23T20:47:54.256022",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-58m2-id-2919012207/": {
+      "first_seen": "2026-10-23T20:47:54.256022",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-botafogo-zona-sul-rio-de-janeiro-rj-84m2-id-2919016360/": {
+      "first_seen": "2026-10-23T20:47:54.256022",
+      "last_score": 65.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-humaita-zona-sul-rio-de-janeiro-rj-41m2-id-2671437372/": {
+      "first_seen": "2026-10-23T20:47:54.256022",
+      "last_score": 45.0
     }
   }
 }

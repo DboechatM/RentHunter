@@ -6507,7 +6507,7 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-44m2-id-2917927188/": {
       "first_seen": "2026-10-22T13:42:48.337322",
-      "last_score": 45.0
+      "last_score": 55.0
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-casa-1-quarto-botafogo-zona-sul-rio-de-janeiro-rj-100m2-id-2918748450/": {
       "first_seen": "2026-10-22T13:42:48.337322",
@@ -6528,6 +6528,26 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-janelas-grandes-botafogo-zona-sul-rio-de-janeiro-rj-44m2-id-2910860320/": {
       "first_seen": "2026-10-22T13:42:48.337322",
       "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-area-de-servico-leme-zona-sul-rio-de-janeiro-rj-45m2-id-2918886570/": {
+      "first_seen": "2026-10-23T13:33:19.338638",
+      "last_score": 65.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-flamengo-zona-sul-rio-de-janeiro-rj-88m2-id-2915065874/": {
+      "first_seen": "2026-10-23T13:33:19.338638",
+      "last_score": 55.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-quitinete-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-40m2-id-2918940238/": {
+      "first_seen": "2026-10-23T13:33:19.338638",
+      "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-copacabana-zona-sul-rio-de-janeiro-rj-46m2-id-2918626334/": {
+      "first_seen": "2026-10-23T13:33:19.338638",
+      "last_score": 45.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-copacabana-zona-sul-rio-de-janeiro-rj-54m2-id-2918948658/": {
+      "first_seen": "2026-10-23T13:33:19.338638",
+      "last_score": 40.0
     }
   }
 }

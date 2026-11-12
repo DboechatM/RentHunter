@@ -6727,7 +6727,7 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-cozinha-flamengo-zona-sul-rio-de-janeiro-rj-46m2-id-2919966736/": {
       "first_seen": "2026-10-29T21:42:22.340966",
-      "last_score": 35.0
+      "last_score": 45.0
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-piso-de-madeira-gloria-zona-sul-rio-de-janeiro-rj-50m2-id-2919837547/": {
       "first_seen": "2026-10-30T14:45:37.641277",
@@ -7187,6 +7187,14 @@
     },
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-piso-de-madeira-flamengo-zona-sul-rio-de-janeiro-rj-44m2-id-2919600434/": {
       "first_seen": "2026-11-11T16:17:18.551432",
+      "last_score": 35.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-laranjeiras-zona-sul-rio-de-janeiro-rj-50m2-id-2922070440/": {
+      "first_seen": "2026-11-11T23:10:01.808012",
+      "last_score": 50.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-flamengo-zona-sul-rio-de-janeiro-rj-42m2-id-2921774044/": {
+      "first_seen": "2026-11-11T23:10:01.808012",
       "last_score": 35.0
     }
   }

@@ -7264,6 +7264,38 @@
     "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-laranjeiras-zona-sul-rio-de-janeiro-rj-56m2-id-2922405750/": {
       "first_seen": "2026-11-13T16:16:07.285661",
       "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-botafogo-zona-sul-rio-de-janeiro-rj-71m2-id-2922463649/": {
+      "first_seen": "2026-11-13T22:21:31.845012",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-flamengo-zona-sul-rio-de-janeiro-rj-71m2-id-2922459618/": {
+      "first_seen": "2026-11-13T22:21:31.845012",
+      "last_score": 75.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-copacabana-zona-sul-rio-de-janeiro-rj-58m2-id-2922462946/": {
+      "first_seen": "2026-11-13T22:21:31.845012",
+      "last_score": 70.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-gloria-zona-sul-rio-de-janeiro-rj-40m2-id-2922463842/": {
+      "first_seen": "2026-11-13T22:21:31.845012",
+      "last_score": 55.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-ipanema-zona-sul-rio-de-janeiro-rj-45m2-id-2922464134/": {
+      "first_seen": "2026-11-13T22:21:31.845012",
+      "last_score": 55.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-cozinha-gloria-zona-sul-rio-de-janeiro-rj-60m2-id-2919027164/": {
+      "first_seen": "2026-11-13T22:21:31.845012",
+      "last_score": 50.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-janelas-de-aluminio-botafogo-zona-sul-rio-de-janeiro-rj-60m2-id-2922372344/": {
+      "first_seen": "2026-11-13T22:21:31.845012",
+      "last_score": 40.0
+    },
+    "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-copacabana-zona-sul-rio-de-janeiro-rj-50m2-id-2909715517/": {
+      "first_seen": "2026-11-13T22:21:31.845012",
+      "last_score": 40.0
     }
   }
 }
